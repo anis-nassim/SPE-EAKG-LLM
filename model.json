@@ -1,0 +1,6748 @@
+{
+	"model": {
+		"@_xmlns": "http://www.opengroup.org/xsd/archimate/3.0/",
+		"@_xmlns:dc": "http://purl.org/dc/elements/1.1/",
+		"@_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"@_xsi:schemaLocation": "http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd http://purl.org/dc/elements/1.1/ http://www.opengroup.org/xsd/archimate/3.1/dc.xsd",
+		"@_identifier": "id-1af2944d-77b2-4f6a-b0ec-06cf89d9043e",
+		"name": {
+			"@_xml:lang": "en",
+			"#text": "ArchiSurance 3.1 Case Study (revised)"
+		},
+		"documentation": {
+			"@_xml:lang": "en",
+			"#text": "ArchiSurance Case Study, Version 3.1, ArchiMate Model Exchange File Format\nThe ArchiSurance Case Study is a fictitious example developed to illustrate the use of the ArchiMate® modeling language in the context of the TOGAF® framework.\n\nCopyight (c) 2020, The Open Group\nSee document Y194 for the  copyright notice.\nhttps://publications.opengroup.org/y194"
+		},
+		"metadata": {
+			"schema": "Dublin Core",
+			"schemaversion": 1.1,
+			"dc:title": "ArchiSurance 3.1 (revised)",
+			"dc:creator": "The Open Group",
+			"dc:subject": "ArchiSurance Case Study Model",
+			"dc:description": "The Open Group ArchiMate Model Exchange File Format for the ArchiSurance Case Study",
+			"dc:publisher": "The Open Group",
+			"dc:contributor": "The Open Group",
+			"dc:date": "March 2020",
+			"dc:format": "The Open Group ArchiMate Exchange File Format V3.1",
+			"dc:identifier": "3.1-2020-02-17",
+			"dc:rights": "Copyright The Open Group. See Copyright notice for permissions."
+		},
+		"elements": {
+			"element": [
+				{
+					"@_identifier": "id-46330",
+					"@_xsi:type": "ValueStream",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Manage Policies and Claims"
+					}
+				},
+				{
+					"@_identifier": "id-46369",
+					"@_xsi:type": "ValueStream",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Serve Customers"
+					}
+				},
+				{
+					"@_identifier": "id-46322",
+					"@_xsi:type": "ValueStream",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Market and Sell Products"
+					}
+				},
+				{
+					"@_identifier": "id-46366",
+					"@_xsi:type": "ValueStream",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Develop Products"
+					}
+				},
+				{
+					"@_identifier": "id-46353",
+					"@_xsi:type": "ValueStream",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Acquire Insurance Product"
+					}
+				},
+				{
+					"@_identifier": "id-46433",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Enterprise Architecture"
+					}
+				},
+				{
+					"@_identifier": "id-46437",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Analysis"
+					}
+				},
+				{
+					"@_identifier": "id-46415",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Risk & Compliance Management"
+					}
+				},
+				{
+					"@_identifier": "id-46405",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Sales Execution"
+					}
+				},
+				{
+					"@_identifier": "id-46458",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Distribution Channel Management"
+					}
+				},
+				{
+					"@_identifier": "id-46425",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Digital Channel Management"
+					}
+				},
+				{
+					"@_identifier": "id-46407",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Money Market Management"
+					}
+				},
+				{
+					"@_identifier": "id-46371",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Performance Management"
+					}
+				},
+				{
+					"@_identifier": "id-46439",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Acquisition"
+					}
+				},
+				{
+					"@_identifier": "id-46454",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Strategic Management"
+					}
+				},
+				{
+					"@_identifier": "id-46420",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Fiscal & Accounting Management"
+					}
+				},
+				{
+					"@_identifier": "id-46451",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Accounts Management"
+					}
+				},
+				{
+					"@_identifier": "id-46411",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Relation Management"
+					}
+				},
+				{
+					"@_identifier": "id-46377",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Process Management"
+					}
+				},
+				{
+					"@_identifier": "id-46456",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "HR Management"
+					}
+				},
+				{
+					"@_identifier": "id-46384",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Service Channel Management"
+					}
+				},
+				{
+					"@_identifier": "id-46427",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Administration"
+					}
+				},
+				{
+					"@_identifier": "id-46394",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Definition"
+					}
+				},
+				{
+					"@_identifier": "id-46379",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Settlement"
+					}
+				},
+				{
+					"@_identifier": "id-46391",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Cash Flow Management"
+					}
+				},
+				{
+					"@_identifier": "id-46386",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investment Strategy Management"
+					}
+				},
+				{
+					"@_identifier": "id-46375",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investment Performance Management"
+					}
+				},
+				{
+					"@_identifier": "id-46447",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Office Management"
+					}
+				},
+				{
+					"@_identifier": "id-46413",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Banking Management"
+					}
+				},
+				{
+					"@_identifier": "id-46441",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Market Development"
+					}
+				},
+				{
+					"@_identifier": "id-46443",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Engineering"
+					}
+				},
+				{
+					"@_identifier": "id-46429",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Contract Administration"
+					}
+				},
+				{
+					"@_identifier": "id-46449",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Data Management"
+					}
+				},
+				{
+					"@_identifier": "id-46409",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Contract Lifecycle Management"
+					}
+				},
+				{
+					"@_identifier": "id-46401",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Campaign Management"
+					}
+				},
+				{
+					"@_identifier": "id-46399",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Asset Inventory Maintenance"
+					}
+				},
+				{
+					"@_identifier": "id-46396",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Facility Management"
+					}
+				},
+				{
+					"@_identifier": "id-46431",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Organizational Development"
+					}
+				},
+				{
+					"@_identifier": "id-46418",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investment Portfolio Management"
+					}
+				},
+				{
+					"@_identifier": "id-46435",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Contact Management"
+					}
+				},
+				{
+					"@_identifier": "id-46355",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Sales And Distribution"
+					}
+				},
+				{
+					"@_identifier": "id-46319",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Digital Customer Management"
+					}
+				},
+				{
+					"@_identifier": "id-46333",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data-Driven Insurance"
+					}
+				},
+				{
+					"@_identifier": "id-46356",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Management"
+					}
+				},
+				{
+					"@_identifier": "id-46357",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Marketing"
+					}
+				},
+				{
+					"@_identifier": "id-46358",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Business Support"
+					}
+				},
+				{
+					"@_identifier": "id-46359",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Business Management"
+					}
+				},
+				{
+					"@_identifier": "id-46360",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Money Management"
+					}
+				},
+				{
+					"@_identifier": "id-46361",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Management"
+					}
+				},
+				{
+					"@_identifier": "id-46307",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Asset Management"
+					}
+				},
+				{
+					"@_identifier": "id-46325",
+					"@_xsi:type": "Capability",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy and Claim Management"
+					}
+				},
+				{
+					"@_identifier": "id-46621",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-46657",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Service"
+					}
+				},
+				{
+					"@_identifier": "id-46623",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Marketing & Sales"
+					}
+				},
+				{
+					"@_identifier": "id-46639",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Homeowner's & Travel Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-46619",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-46611",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Intermediary"
+					}
+				},
+				{
+					"@_identifier": "id-46672",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Shared Service Center"
+					}
+				},
+				{
+					"@_identifier": "id-46684",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Bank"
+					}
+				},
+				{
+					"@_identifier": "id-46613",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer"
+					}
+				},
+				{
+					"@_identifier": "id-46685",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Business Intelligence Team"
+					}
+				},
+				{
+					"@_identifier": "id-46594",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ArchiSurance"
+					}
+				},
+				{
+					"@_identifier": "id-46595",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-46596",
+					"@_xsi:type": "BusinessActor",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Front Office"
+					}
+				},
+				{
+					"@_identifier": "id-46630",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Underwriting"
+					}
+				},
+				{
+					"@_identifier": "id-46637",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Finance"
+					}
+				},
+				{
+					"@_identifier": "id-46687",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claims"
+					}
+				},
+				{
+					"@_identifier": "id-46667",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claims Handling"
+					}
+				},
+				{
+					"@_identifier": "id-46688",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Buying Insurance"
+					}
+				},
+				{
+					"@_identifier": "id-46689",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claims Submission"
+					}
+				},
+				{
+					"@_identifier": "id-46690",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Banking"
+					}
+				},
+				{
+					"@_identifier": "id-46691",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Marketing"
+					}
+				},
+				{
+					"@_identifier": "id-46692",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Sales"
+					}
+				},
+				{
+					"@_identifier": "id-46617",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Actuarial"
+					}
+				},
+				{
+					"@_identifier": "id-46661",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Document Processing"
+					}
+				},
+				{
+					"@_identifier": "id-46693",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Information Provisioning"
+					}
+				},
+				{
+					"@_identifier": "id-46665",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investment Management"
+					}
+				},
+				{
+					"@_identifier": "id-46694",
+					"@_xsi:type": "BusinessFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Relations"
+					}
+				},
+				{
+					"@_identifier": "id-46697",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Homeowner's Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46698",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Record"
+					}
+				},
+				{
+					"@_identifier": "id-46699",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46700",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46701",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Travel Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46702",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Aggregate Customer Information"
+					}
+				},
+				{
+					"@_identifier": "id-46703",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance File"
+					}
+				},
+				{
+					"@_identifier": "id-46704",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46705",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Request"
+					}
+				},
+				{
+					"@_identifier": "id-46706",
+					"@_xsi:type": "BusinessObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim"
+					}
+				},
+				{
+					"@_identifier": "id-46649",
+					"@_xsi:type": "Product",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance"
+					}
+				},
+				{
+					"@_identifier": "id-46709",
+					"@_xsi:type": "BusinessCollaboration",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Personal Assistance In Policy Customization"
+					}
+				},
+				{
+					"@_identifier": "id-46710",
+					"@_xsi:type": "BusinessCollaboration",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Full-Service Support For High-Value Customers"
+					}
+				},
+				{
+					"@_identifier": "id-46711",
+					"@_xsi:type": "BusinessRole",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Bank"
+					}
+				},
+				{
+					"@_identifier": "id-46712",
+					"@_xsi:type": "BusinessCollaboration",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Quick & Easy Self-Service"
+					}
+				},
+				{
+					"@_identifier": "id-46715",
+					"@_xsi:type": "BusinessInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Web"
+					}
+				},
+				{
+					"@_identifier": "id-46716",
+					"@_xsi:type": "BusinessInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Front Desk"
+					}
+				},
+				{
+					"@_identifier": "id-46717",
+					"@_xsi:type": "BusinessInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Telephone"
+					}
+				},
+				{
+					"@_identifier": "id-46718",
+					"@_xsi:type": "BusinessInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Postal Mail"
+					}
+				},
+				{
+					"@_identifier": "id-46719",
+					"@_xsi:type": "BusinessInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "E-Mail"
+					}
+				},
+				{
+					"@_identifier": "id-46721",
+					"@_xsi:type": "BusinessEvent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Request For Insurance Received"
+					}
+				},
+				{
+					"@_identifier": "id-46296",
+					"@_xsi:type": "BusinessEvent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Rejected"
+					}
+				},
+				{
+					"@_identifier": "id-46722",
+					"@_xsi:type": "BusinessEvent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Received"
+					}
+				},
+				{
+					"@_identifier": "id-46645",
+					"@_xsi:type": "BusinessService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Issuance Service"
+					}
+				},
+				{
+					"@_identifier": "id-46632",
+					"@_xsi:type": "BusinessService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Submission Service"
+					}
+				},
+				{
+					"@_identifier": "id-46627",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investigate"
+					}
+				},
+				{
+					"@_identifier": "id-46625",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Produce Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46643",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Notify Additional Stakeholders"
+					}
+				},
+				{
+					"@_identifier": "id-46655",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Accept Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46635",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Underwrite Risk"
+					}
+				},
+				{
+					"@_identifier": "id-46659",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Validate"
+					}
+				},
+				{
+					"@_identifier": "id-46641",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Capture Information"
+					}
+				},
+				{
+					"@_identifier": "id-46294",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Pay"
+					}
+				},
+				{
+					"@_identifier": "id-46725",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Calculate Insurance Premium"
+					}
+				},
+				{
+					"@_identifier": "id-46607",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Issue New Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46608",
+					"@_xsi:type": "BusinessProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Handle Claim"
+					}
+				},
+				{
+					"@_identifier": "id-46894",
+					"@_xsi:type": "ApplicationFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Data Management"
+					}
+				},
+				{
+					"@_identifier": "id-46895",
+					"@_xsi:type": "ApplicationFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Data Access"
+					}
+				},
+				{
+					"@_identifier": "id-46898",
+					"@_xsi:type": "DataObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Profile Data"
+					}
+				},
+				{
+					"@_identifier": "id-46899",
+					"@_xsi:type": "DataObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claim Data"
+					}
+				},
+				{
+					"@_identifier": "id-46900",
+					"@_xsi:type": "DataObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Data"
+					}
+				},
+				{
+					"@_identifier": "id-46901",
+					"@_xsi:type": "DataObject",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Data"
+					}
+				},
+				{
+					"@_identifier": "id-46879",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Administration Services"
+					}
+				},
+				{
+					"@_identifier": "id-46903",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "CRM Data Access"
+					}
+				},
+				{
+					"@_identifier": "id-46904",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Administration"
+					}
+				},
+				{
+					"@_identifier": "id-46905",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Creation"
+					}
+				},
+				{
+					"@_identifier": "id-46906",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Payment"
+					}
+				},
+				{
+					"@_identifier": "id-46907",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Printing"
+					}
+				},
+				{
+					"@_identifier": "id-46908",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Policy Registration"
+					}
+				},
+				{
+					"@_identifier": "id-46909",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claims Administration"
+					}
+				},
+				{
+					"@_identifier": "id-46910",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Scanning"
+					}
+				},
+				{
+					"@_identifier": "id-46868",
+					"@_xsi:type": "ApplicationService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Financial Services"
+					}
+				},
+				{
+					"@_identifier": "id-46871",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "P-ADMIN"
+					}
+				},
+				{
+					"@_identifier": "id-46881",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "BRIMS"
+					}
+				},
+				{
+					"@_identifier": "id-46877",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "P-CONFIG"
+					}
+				},
+				{
+					"@_identifier": "id-46299",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Warehousing Solution"
+					}
+				},
+				{
+					"@_identifier": "id-46864",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense CRM System"
+					}
+				},
+				{
+					"@_identifier": "id-46913",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense Back Office System"
+					}
+				},
+				{
+					"@_identifier": "id-46862",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "General CRM System"
+					}
+				},
+				{
+					"@_identifier": "id-46914",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto Insurance Application"
+					}
+				},
+				{
+					"@_identifier": "id-46915",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away Financial Application"
+					}
+				},
+				{
+					"@_identifier": "id-46916",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Web Portal"
+					}
+				},
+				{
+					"@_identifier": "id-46860",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Document Management System"
+					}
+				},
+				{
+					"@_identifier": "id-46917",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Call Center Application"
+					}
+				},
+				{
+					"@_identifier": "id-46918",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away Policy Administration"
+					}
+				},
+				{
+					"@_identifier": "id-46866",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "AUTO-U"
+					}
+				},
+				{
+					"@_identifier": "id-46873",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "VERSA-CLAIM"
+					}
+				},
+				{
+					"@_identifier": "id-46919",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "MyArchiSurance Mobile App"
+					}
+				},
+				{
+					"@_identifier": "id-46304",
+					"@_xsi:type": "ApplicationComponent",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ArchiSurance Back Office Suite"
+					}
+				},
+				{
+					"@_identifier": "id-46921",
+					"@_xsi:type": "ApplicationProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Aggregate Data"
+					}
+				},
+				{
+					"@_identifier": "id-46922",
+					"@_xsi:type": "ApplicationProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Report Data"
+					}
+				},
+				{
+					"@_identifier": "id-46923",
+					"@_xsi:type": "ApplicationProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Process Data"
+					}
+				},
+				{
+					"@_identifier": "id-46924",
+					"@_xsi:type": "ApplicationProcess",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Analyze Data"
+					}
+				},
+				{
+					"@_identifier": "id-47069",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away Policy Administration implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47070",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Back Office Suite Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47071",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Call Center Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47072",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away Financial Application implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47073",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Web Portal Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47074",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "CRM System Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47075",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Real-Time Customer Data"
+					}
+				},
+				{
+					"@_identifier": "id-47076",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto Insurance Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47077",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense Back Office implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47078",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense CRM System"
+					}
+				},
+				{
+					"@_identifier": "id-47079",
+					"@_xsi:type": "Artifact",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "DMS Implementation"
+					}
+				},
+				{
+					"@_identifier": "id-47054",
+					"@_xsi:type": "TechnologyInterface",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "REST API"
+					}
+				},
+				{
+					"@_identifier": "id-47084",
+					"@_xsi:type": "TechnologyFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Generation"
+					}
+				},
+				{
+					"@_identifier": "id-47058",
+					"@_xsi:type": "TechnologyFunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Acquisition"
+					}
+				},
+				{
+					"@_identifier": "id-47056",
+					"@_xsi:type": "SystemSoftware",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Container"
+					}
+				},
+				{
+					"@_identifier": "id-47087",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ArchiSurance General-Purpose Server Cluster"
+					}
+				},
+				{
+					"@_identifier": "id-47088",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "FO General-Purpose Server"
+					}
+				},
+				{
+					"@_identifier": "id-47089",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense General-Purpose Server"
+					}
+				},
+				{
+					"@_identifier": "id-47090",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "FO Web Hosting Server"
+					}
+				},
+				{
+					"@_identifier": "id-47091",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ArchiSurance Back-Up Server Cluster"
+					}
+				},
+				{
+					"@_identifier": "id-47092",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto General-Purpose Server"
+					}
+				},
+				{
+					"@_identifier": "id-47093",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Document Management Server"
+					}
+				},
+				{
+					"@_identifier": "id-47094",
+					"@_xsi:type": "Device",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Document Management Back-Up Server"
+					}
+				},
+				{
+					"@_identifier": "id-47097",
+					"@_xsi:type": "CommunicationNetwork",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "PRO-FIT LAN"
+					}
+				},
+				{
+					"@_identifier": "id-47052",
+					"@_xsi:type": "CommunicationNetwork",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away LAN"
+					}
+				},
+				{
+					"@_identifier": "id-47098",
+					"@_xsi:type": "CommunicationNetwork",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ArchiSurance WAN"
+					}
+				},
+				{
+					"@_identifier": "id-47100",
+					"@_xsi:type": "TechnologyService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "PaaS Services"
+					}
+				},
+				{
+					"@_identifier": "id-47101",
+					"@_xsi:type": "TechnologyService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Device Registration Service"
+					}
+				},
+				{
+					"@_identifier": "id-47102",
+					"@_xsi:type": "TechnologyService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Device Operation Service"
+					}
+				},
+				{
+					"@_identifier": "id-47103",
+					"@_xsi:type": "TechnologyService",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Notification Service"
+					}
+				},
+				{
+					"@_identifier": "id-47169",
+					"@_xsi:type": "DistributionNetwork",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Energy Network"
+					}
+				},
+				{
+					"@_identifier": "id-47171",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Fitness Tracker"
+					}
+				},
+				{
+					"@_identifier": "id-47117",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "IoT Device"
+					}
+				},
+				{
+					"@_identifier": "id-47172",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home Alarm System"
+					}
+				},
+				{
+					"@_identifier": "id-47173",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Car Black Box"
+					}
+				},
+				{
+					"@_identifier": "id-47174",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Smart Thermostat"
+					}
+				},
+				{
+					"@_identifier": "id-47175",
+					"@_xsi:type": "Equipment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Smart Connected Devices"
+					}
+				},
+				{
+					"@_identifier": "id-47178",
+					"@_xsi:type": "Facility",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Smart Home"
+					}
+				},
+				{
+					"@_identifier": "id-47045",
+					"@_xsi:type": "Node",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Acquisition Gateway"
+					}
+				},
+				{
+					"@_identifier": "id-46497",
+					"@_xsi:type": "Requirement",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Support for Financial Transactions"
+					}
+				},
+				{
+					"@_identifier": "id-47201",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Improve Data Consistency"
+					}
+				},
+				{
+					"@_identifier": "id-46517",
+					"@_xsi:type": "Principle",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Single System of Record For Each Data Element"
+					}
+				},
+				{
+					"@_identifier": "id-47202",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Market Growth"
+					}
+				},
+				{
+					"@_identifier": "id-47203",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Market Share"
+					}
+				},
+				{
+					"@_identifier": "id-46512",
+					"@_xsi:type": "Requirement",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "CRM Data Should Be Maintained Centrally"
+					}
+				},
+				{
+					"@_identifier": "id-47204",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Education"
+					}
+				},
+				{
+					"@_identifier": "id-47205",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Perceived Value"
+					}
+				},
+				{
+					"@_identifier": "id-46316",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Detailed Insights in Customer Behavior"
+					}
+				},
+				{
+					"@_identifier": "id-47206",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Uniformity"
+					}
+				},
+				{
+					"@_identifier": "id-46647",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Commission"
+					}
+				},
+				{
+					"@_identifier": "id-46653",
+					"@_xsi:type": "Meaning",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Policy"
+					}
+				},
+				{
+					"@_identifier": "id-46503",
+					"@_xsi:type": "Requirement",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Shared Back Office Application for All Products"
+					}
+				},
+				{
+					"@_identifier": "id-47207",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Revenue Impact"
+					}
+				},
+				{
+					"@_identifier": "id-46571",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Competitive Premium Setting"
+					}
+				},
+				{
+					"@_identifier": "id-46733",
+					"@_xsi:type": "Meaning",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Offering"
+					}
+				},
+				{
+					"@_identifier": "id-47208",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Satisfaction"
+					}
+				},
+				{
+					"@_identifier": "id-46651",
+					"@_xsi:type": "Meaning",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Information"
+					}
+				},
+				{
+					"@_identifier": "id-47209",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Cost"
+					}
+				},
+				{
+					"@_identifier": "id-46499",
+					"@_xsi:type": "Principle",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Common Use of Applications"
+					}
+				},
+				{
+					"@_identifier": "id-47210",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Sales Target"
+					},
+					"documentation": {
+						"@_xml:lang": "en",
+						"#text": "Noch etwas zu übersetzen. Eine andere Zeile. Mit einem Aufzählungszeichen."
+					}
+				},
+				{
+					"@_identifier": "id-47211",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Productivity"
+					}
+				},
+				{
+					"@_identifier": "id-47212",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Impact"
+					}
+				},
+				{
+					"@_identifier": "id-47213",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Risk"
+					}
+				},
+				{
+					"@_identifier": "id-46730",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Premium"
+					}
+				},
+				{
+					"@_identifier": "id-46754",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Premiums"
+					}
+				},
+				{
+					"@_identifier": "id-47214",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Low Interest Rates Adversely Affect Return on Assets"
+					}
+				},
+				{
+					"@_identifier": "id-47215",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Privacy Regulation (GDPR)"
+					}
+				},
+				{
+					"@_identifier": "id-47216",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Low Trust in Financial Institutions"
+					}
+				},
+				{
+					"@_identifier": "id-47217",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Automobile Insurance For Businesses"
+					}
+				},
+				{
+					"@_identifier": "id-47218",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Blockchain May Disintermediate Insurance Market"
+					}
+				},
+				{
+					"@_identifier": "id-47219",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Income"
+					}
+				},
+				{
+					"@_identifier": "id-47220",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Efficiency"
+					}
+				},
+				{
+					"@_identifier": "id-47221",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Conversational Agents Prevailing"
+					}
+				},
+				{
+					"@_identifier": "id-47222",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Other"
+					}
+				},
+				{
+					"@_identifier": "id-47223",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Opportunities in Clean-Tech Investments"
+					}
+				},
+				{
+					"@_identifier": "id-47224",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Economies of Scale Favor Largest Industry Players"
+					}
+				},
+				{
+					"@_identifier": "id-47225",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Rent"
+					}
+				},
+				{
+					"@_identifier": "id-47226",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Investments in Carbon-Based Economy Under Pressure"
+					}
+				},
+				{
+					"@_identifier": "id-47227",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Human Interaction Prevailing"
+					}
+				},
+				{
+					"@_identifier": "id-47228",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Automobile Insurance For Individuals"
+					}
+				},
+				{
+					"@_identifier": "id-46578",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Increase in Market Share"
+					}
+				},
+				{
+					"@_identifier": "id-47229",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Fintechs More Savvy in Employing Digital Innovations"
+					}
+				},
+				{
+					"@_identifier": "id-47230",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Salaries"
+					}
+				},
+				{
+					"@_identifier": "id-46501",
+					"@_xsi:type": "Requirement",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Support for Policy Administration"
+					}
+				},
+				{
+					"@_identifier": "id-47231",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Claims"
+					}
+				},
+				{
+					"@_identifier": "id-47232",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Quality"
+					}
+				},
+				{
+					"@_identifier": "id-47233",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Thinking globally"
+					}
+				},
+				{
+					"@_identifier": "id-47234",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Financial Regulation (Solvency II, PSD II, Basel III)"
+					}
+				},
+				{
+					"@_identifier": "id-47235",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Product Portfolio"
+					}
+				},
+				{
+					"@_identifier": "id-46547",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "5% Year-Over-Year Market Share Growth"
+					}
+				},
+				{
+					"@_identifier": "id-47236",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Data Quality"
+					}
+				},
+				{
+					"@_identifier": "id-47237",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Unclear Effects of Brexit on Financial Markets"
+					}
+				},
+				{
+					"@_identifier": "id-47238",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Cognitive Systems"
+					}
+				},
+				{
+					"@_identifier": "id-47239",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Stakeholder Satisfaction"
+					}
+				},
+				{
+					"@_identifier": "id-47240",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Better Digital Skills of Front-Office Personnel"
+					}
+				},
+				{
+					"@_identifier": "id-47241",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Price"
+					}
+				},
+				{
+					"@_identifier": "id-46559",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "High-Quality Insurance Product with Attractive Price"
+					}
+				},
+				{
+					"@_identifier": "id-47242",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Return on Assets"
+					}
+				},
+				{
+					"@_identifier": "id-47243",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Lack of A Good Digital Experience"
+					}
+				},
+				{
+					"@_identifier": "id-46557",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Attractive Insurance Offering"
+					}
+				},
+				{
+					"@_identifier": "id-46561",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "High Customer Intimacy Based on Detailed Customer Data"
+					}
+				},
+				{
+					"@_identifier": "id-46569",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "90% of Customer Interaction Online"
+					}
+				},
+				{
+					"@_identifier": "id-47244",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customers Defecting to Competitors with Superior Digital Experiences"
+					}
+				},
+				{
+					"@_identifier": "id-47245",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customers Defecting to Competitors with Lower Insurance Premiums"
+					}
+				},
+				{
+					"@_identifier": "id-47246",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Inefficiencies in Internal Operations"
+					}
+				},
+				{
+					"@_identifier": "id-47247",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Increase in Revenue"
+					}
+				},
+				{
+					"@_identifier": "id-47248",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Profit Margin of >5% in Next Fiscal Year"
+					}
+				},
+				{
+					"@_identifier": "id-46565",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Improve Cross-Selling Success"
+					}
+				},
+				{
+					"@_identifier": "id-46576",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Fast and Easy Handling of New Policies and Insurance Claims"
+					}
+				},
+				{
+					"@_identifier": "id-47249",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Reduction of Personnel Costs"
+					}
+				},
+				{
+					"@_identifier": "id-46574",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Higher Customer Retention"
+					}
+				},
+				{
+					"@_identifier": "id-47250",
+					"@_xsi:type": "Driver",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Profitability"
+					}
+				},
+				{
+					"@_identifier": "id-46563",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Improve Customer Satisfaction"
+					}
+				},
+				{
+					"@_identifier": "id-47251",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Affluent Millennials Looking For Convenience in Insurances"
+					}
+				},
+				{
+					"@_identifier": "id-47252",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Reduction of Maintenance Costs"
+					}
+				},
+				{
+					"@_identifier": "id-47253",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Premium Contributions"
+					}
+				},
+				{
+					"@_identifier": "id-47254",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Marketing"
+					}
+				},
+				{
+					"@_identifier": "id-46549",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Smart Claim Assessment Based on Big Data"
+					}
+				},
+				{
+					"@_identifier": "id-47255",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Broad Product Coverage"
+					}
+				},
+				{
+					"@_identifier": "id-47256",
+					"@_xsi:type": "Assessment",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Strong Brand Position"
+					}
+				},
+				{
+					"@_identifier": "id-46552",
+					"@_xsi:type": "Value",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Well-Targeted Products For The Millennials Market Segment"
+					}
+				},
+				{
+					"@_identifier": "id-47257",
+					"@_xsi:type": "Goal",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Reduction of Costs"
+					}
+				},
+				{
+					"@_identifier": "id-46336",
+					"@_xsi:type": "Outcome",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Best-in-Class Online Customer Experience"
+					}
+				},
+				{
+					"@_identifier": "id-47259",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Board"
+					}
+				},
+				{
+					"@_identifier": "id-47260",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Automobile Repair Shops"
+					}
+				},
+				{
+					"@_identifier": "id-47261",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Employee"
+					}
+				},
+				{
+					"@_identifier": "id-47262",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Intermediary"
+					}
+				},
+				{
+					"@_identifier": "id-47263",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer"
+					}
+				},
+				{
+					"@_identifier": "id-47264",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Advertising Outlets"
+					}
+				},
+				{
+					"@_identifier": "id-47265",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Businesses Under 500 Employees"
+					}
+				},
+				{
+					"@_identifier": "id-47266",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Car Rental Companies"
+					}
+				},
+				{
+					"@_identifier": "id-47267",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Businesses Under 50 Employees"
+					}
+				},
+				{
+					"@_identifier": "id-47268",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Single-Employee Businesses"
+					}
+				},
+				{
+					"@_identifier": "id-47269",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Banks"
+					}
+				},
+				{
+					"@_identifier": "id-47270",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Insurance Intermediaries"
+					}
+				},
+				{
+					"@_identifier": "id-47271",
+					"@_xsi:type": "Stakeholder",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Households"
+					}
+				},
+				{
+					"@_identifier": "id-47354",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Work package: Software Modification"
+					}
+				},
+				{
+					"@_identifier": "id-47358",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Work package: Phasing Out Legacy"
+					}
+				},
+				{
+					"@_identifier": "id-47356",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Work package: Hardware Upgrade"
+					}
+				},
+				{
+					"@_identifier": "id-47392",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Project: CRM System Integration"
+					}
+				},
+				{
+					"@_identifier": "id-47347",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Project: Back Office System Integration"
+					}
+				},
+				{
+					"@_identifier": "id-47393",
+					"@_xsi:type": "WorkPackage",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Project: Data Warehousing and BI"
+					}
+				},
+				{
+					"@_identifier": "id-47381",
+					"@_xsi:type": "Deliverable",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "New Hardware Configuration"
+					}
+				},
+				{
+					"@_identifier": "id-47379",
+					"@_xsi:type": "Deliverable",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Integrated Back-Office Suite"
+					}
+				},
+				{
+					"@_identifier": "id-46310",
+					"@_xsi:type": "Plateau",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Transition A: One Enterprise-Wide CRM System with Baseline Back-Office Systems"
+					}
+				},
+				{
+					"@_identifier": "id-46327",
+					"@_xsi:type": "Plateau",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Transition B: Standard Back-Office Suite with Baseline CRM Systems"
+					}
+				},
+				{
+					"@_identifier": "id-46339",
+					"@_xsi:type": "Plateau",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Target: CRM, Back Office and Data Warehouse Operational"
+					}
+				},
+				{
+					"@_identifier": "id-47396",
+					"@_xsi:type": "Plateau",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Baseline"
+					}
+				},
+				{
+					"@_identifier": "id-46302",
+					"@_xsi:type": "Plateau",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Transition C: One Enterprise-Wide CRM System with Standard Back Office Systems"
+					}
+				},
+				{
+					"@_identifier": "id-46341",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (15)"
+					}
+				},
+				{
+					"@_identifier": "id-46332",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (9)"
+					}
+				},
+				{
+					"@_identifier": "id-46298",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction"
+					}
+				},
+				{
+					"@_identifier": "id-46318",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (4)"
+					}
+				},
+				{
+					"@_identifier": "id-46335",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en"
+					}
+				},
+				{
+					"@_identifier": "id-46306",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (3)"
+					}
+				},
+				{
+					"@_identifier": "id-46342",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (13)"
+					}
+				},
+				{
+					"@_identifier": "id-46324",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (6)"
+					}
+				},
+				{
+					"@_identifier": "id-46309",
+					"@_xsi:type": "OrJunction",
+					"name": {
+						"@_xml:lang": "en"
+					}
+				},
+				{
+					"@_identifier": "id-46329",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (7)"
+					}
+				},
+				{
+					"@_identifier": "id-46343",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (12)"
+					}
+				},
+				{
+					"@_identifier": "id-46293",
+					"@_xsi:type": "OrJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "OR junction"
+					}
+				},
+				{
+					"@_identifier": "id-46315",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en"
+					}
+				},
+				{
+					"@_identifier": "id-46344",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (14)"
+					}
+				},
+				{
+					"@_identifier": "id-46312",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (5)"
+					}
+				},
+				{
+					"@_identifier": "id-46338",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (2)"
+					}
+				},
+				{
+					"@_identifier": "id-46301",
+					"@_xsi:type": "OrJunction",
+					"name": {
+						"@_xml:lang": "en"
+					}
+				},
+				{
+					"@_identifier": "id-46321",
+					"@_xsi:type": "AndJunction",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Junction (10)"
+					}
+				},
+				{
+					"@_identifier": "id-47822",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal"
+					}
+				},
+				{
+					"@_identifier": "id-47786",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer"
+					}
+				},
+				{
+					"@_identifier": "id-47787",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Learning and Growth"
+					}
+				},
+				{
+					"@_identifier": "id-47823",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Political"
+					}
+				},
+				{
+					"@_identifier": "id-47824",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Environmental"
+					}
+				},
+				{
+					"@_identifier": "id-47501",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Front Office"
+					}
+				},
+				{
+					"@_identifier": "id-47502",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Legal Expense Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-47503",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-47133",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Communication"
+					}
+				},
+				{
+					"@_identifier": "id-47504",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Shared Service Center"
+					}
+				},
+				{
+					"@_identifier": "id-47505",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Auto Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-47506",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Homeowner's & Travel Back Office"
+					}
+				},
+				{
+					"@_identifier": "id-47788",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Internal"
+					}
+				},
+				{
+					"@_identifier": "id-47825",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Economic"
+					}
+				},
+				{
+					"@_identifier": "id-47789",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Financial"
+					}
+				},
+				{
+					"@_identifier": "id-47826",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Technological"
+					}
+				},
+				{
+					"@_identifier": "id-47827",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Social"
+					}
+				},
+				{
+					"@_identifier": "id-47966",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Relations"
+					}
+				},
+				{
+					"@_identifier": "id-47967",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Revenues"
+					}
+				},
+				{
+					"@_identifier": "id-47968",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Partners"
+					}
+				},
+				{
+					"@_identifier": "id-47862",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Substitutes"
+					}
+				},
+				{
+					"@_identifier": "id-47863",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Entrants"
+					}
+				},
+				{
+					"@_identifier": "id-47884",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Strengths"
+					}
+				},
+				{
+					"@_identifier": "id-47910",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "SO Strategies"
+					}
+				},
+				{
+					"@_identifier": "id-47911",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "WO Strategies"
+					}
+				},
+				{
+					"@_identifier": "id-47969",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Key Activities"
+					}
+				},
+				{
+					"@_identifier": "id-47970",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Customer Segments"
+					}
+				},
+				{
+					"@_identifier": "id-47971",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Value Propositions"
+					}
+				},
+				{
+					"@_identifier": "id-47972",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Key Resourcss"
+					}
+				},
+				{
+					"@_identifier": "id-47973",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Channels"
+					}
+				},
+				{
+					"@_identifier": "id-47974",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Costs"
+					}
+				},
+				{
+					"@_identifier": "id-47864",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Suppliers"
+					}
+				},
+				{
+					"@_identifier": "id-47865",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Buyers"
+					}
+				},
+				{
+					"@_identifier": "id-47912",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "ST Strategies"
+					}
+				},
+				{
+					"@_identifier": "id-47913",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Threats"
+					}
+				},
+				{
+					"@_identifier": "id-47914",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "WT Strategies"
+					}
+				},
+				{
+					"@_identifier": "id-47915",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Opportunities"
+					}
+				},
+				{
+					"@_identifier": "id-47866",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Rivalry"
+					}
+				},
+				{
+					"@_identifier": "id-47885",
+					"@_xsi:type": "Grouping",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Weaknesses"
+					}
+				},
+				{
+					"@_identifier": "id-47508",
+					"@_xsi:type": "Location",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "Home & Away Headquarters"
+					}
+				},
+				{
+					"@_identifier": "id-47509",
+					"@_xsi:type": "Location",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "External"
+					}
+				},
+				{
+					"@_identifier": "id-47510",
+					"@_xsi:type": "Location",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "PRO-FIT Headquarters"
+					}
+				},
+				{
+					"@_identifier": "id-47511",
+					"@_xsi:type": "Location",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "LegallyYours Headquarters"
+					}
+				}
+			]
+		},
+		"relationships": {
+			"relationship": [
+				{
+					"@_identifier": "id-46292",
+					"@_source": "id-46293",
+					"@_target": "id-46294",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46295",
+					"@_source": "id-46293",
+					"@_target": "id-46296",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46297",
+					"@_source": "id-46298",
+					"@_target": "id-46299",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46300",
+					"@_source": "id-46301",
+					"@_target": "id-46302",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46303",
+					"@_source": "id-46298",
+					"@_target": "id-46304",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46305",
+					"@_source": "id-46306",
+					"@_target": "id-46307",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46308",
+					"@_source": "id-46309",
+					"@_target": "id-46310",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46314",
+					"@_source": "id-46315",
+					"@_target": "id-46316",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46317",
+					"@_source": "id-46318",
+					"@_target": "id-46319",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46320",
+					"@_source": "id-46321",
+					"@_target": "id-46322",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46323",
+					"@_source": "id-46324",
+					"@_target": "id-46325",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46326",
+					"@_source": "id-46309",
+					"@_target": "id-46327",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46328",
+					"@_source": "id-46329",
+					"@_target": "id-46330",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46331",
+					"@_source": "id-46332",
+					"@_target": "id-46333",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46334",
+					"@_source": "id-46335",
+					"@_target": "id-46336",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46337",
+					"@_source": "id-46338",
+					"@_target": "id-46339",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46535",
+					"@_source": "id-46379",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46365",
+					"@_source": "id-46333",
+					"@_target": "id-46366",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46536",
+					"@_source": "id-46401",
+					"@_target": "id-46322",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46537",
+					"@_source": "id-46449",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46538",
+					"@_source": "id-46409",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46367",
+					"@_source": "id-46333",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46539",
+					"@_source": "id-46435",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46540",
+					"@_source": "id-46429",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46541",
+					"@_source": "id-46394",
+					"@_target": "id-46366",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46542",
+					"@_source": "id-46384",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46543",
+					"@_source": "id-46441",
+					"@_target": "id-46322",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46544",
+					"@_source": "id-46458",
+					"@_target": "id-46322",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46545",
+					"@_source": "id-46443",
+					"@_target": "id-46366",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46368",
+					"@_source": "id-46319",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46370",
+					"@_source": "id-46359",
+					"@_target": "id-46371",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46372",
+					"@_source": "id-46353",
+					"@_target": "id-46369",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46373",
+					"@_source": "id-46361",
+					"@_target": "id-46319",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46546",
+					"@_source": "id-46322",
+					"@_target": "id-46547",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46374",
+					"@_source": "id-46307",
+					"@_target": "id-46375",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46548",
+					"@_source": "id-46330",
+					"@_target": "id-46549",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-46376",
+					"@_source": "id-46358",
+					"@_target": "id-46377",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46378",
+					"@_source": "id-46325",
+					"@_target": "id-46379",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46550",
+					"@_source": "id-46322",
+					"@_target": "id-46330",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46380",
+					"@_source": "id-46325",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46551",
+					"@_source": "id-46322",
+					"@_target": "id-46552",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-46553",
+					"@_source": "id-46330",
+					"@_target": "id-46369",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46554",
+					"@_source": "id-46366",
+					"@_target": "id-46322",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46555",
+					"@_source": "id-46366",
+					"@_target": "id-46316",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46556",
+					"@_source": "id-46369",
+					"@_target": "id-46557",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-46383",
+					"@_source": "id-46361",
+					"@_target": "id-46384",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46558",
+					"@_source": "id-46366",
+					"@_target": "id-46559",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-46385",
+					"@_source": "id-46307",
+					"@_target": "id-46386",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46387",
+					"@_source": "id-46361",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46388",
+					"@_source": "id-46319",
+					"@_target": "id-46336",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46389",
+					"@_source": "id-46333",
+					"@_target": "id-46316",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46560",
+					"@_source": "id-46369",
+					"@_target": "id-46561",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-46390",
+					"@_source": "id-46360",
+					"@_target": "id-46391",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46392",
+					"@_source": "id-46357",
+					"@_target": "id-46321",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46562",
+					"@_source": "id-46369",
+					"@_target": "id-46563",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46393",
+					"@_source": "id-46356",
+					"@_target": "id-46394",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46395",
+					"@_source": "id-46358",
+					"@_target": "id-46396",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46397",
+					"@_source": "id-46333",
+					"@_target": "id-46312",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46398",
+					"@_source": "id-46307",
+					"@_target": "id-46399",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46400",
+					"@_source": "id-46357",
+					"@_target": "id-46401",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46402",
+					"@_source": "id-46319",
+					"@_target": "id-46312",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46403",
+					"@_source": "id-46355",
+					"@_target": "id-46321",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46564",
+					"@_source": "id-46322",
+					"@_target": "id-46565",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46566",
+					"@_source": "id-46427",
+					"@_target": "id-46330",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46404",
+					"@_source": "id-46355",
+					"@_target": "id-46405",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46406",
+					"@_source": "id-46360",
+					"@_target": "id-46407",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46408",
+					"@_source": "id-46325",
+					"@_target": "id-46409",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46410",
+					"@_source": "id-46361",
+					"@_target": "id-46411",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46412",
+					"@_source": "id-46360",
+					"@_target": "id-46413",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46414",
+					"@_source": "id-46359",
+					"@_target": "id-46415",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46416",
+					"@_source": "id-46325",
+					"@_target": "id-46356",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "aggregate customer data"
+					}
+				},
+				{
+					"@_identifier": "id-46417",
+					"@_source": "id-46307",
+					"@_target": "id-46418",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46419",
+					"@_source": "id-46359",
+					"@_target": "id-46420",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46567",
+					"@_source": "id-46369",
+					"@_target": "id-46336",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46568",
+					"@_source": "id-46330",
+					"@_target": "id-46569",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46421",
+					"@_source": "id-46353",
+					"@_target": "id-46330",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46570",
+					"@_source": "id-46366",
+					"@_target": "id-46571",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46422",
+					"@_source": "id-46353",
+					"@_target": "id-46369",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46423",
+					"@_source": "id-46356",
+					"@_target": "id-46366",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46424",
+					"@_source": "id-46319",
+					"@_target": "id-46425",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46426",
+					"@_source": "id-46325",
+					"@_target": "id-46427",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46428",
+					"@_source": "id-46325",
+					"@_target": "id-46429",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46430",
+					"@_source": "id-46358",
+					"@_target": "id-46431",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46572",
+					"@_source": "id-46330",
+					"@_target": "id-46316",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46432",
+					"@_source": "id-46359",
+					"@_target": "id-46433",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46434",
+					"@_source": "id-46361",
+					"@_target": "id-46435",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46436",
+					"@_source": "id-46333",
+					"@_target": "id-46437",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46438",
+					"@_source": "id-46333",
+					"@_target": "id-46439",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46573",
+					"@_source": "id-46330",
+					"@_target": "id-46574",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46440",
+					"@_source": "id-46357",
+					"@_target": "id-46441",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46575",
+					"@_source": "id-46330",
+					"@_target": "id-46576",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-46442",
+					"@_source": "id-46356",
+					"@_target": "id-46443",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46444",
+					"@_source": "id-46353",
+					"@_target": "id-46322",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46445",
+					"@_source": "id-46325",
+					"@_target": "id-46333",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46446",
+					"@_source": "id-46358",
+					"@_target": "id-46447",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46448",
+					"@_source": "id-46361",
+					"@_target": "id-46449",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46450",
+					"@_source": "id-46360",
+					"@_target": "id-46451",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46452",
+					"@_source": "id-46353",
+					"@_target": "id-46366",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46453",
+					"@_source": "id-46359",
+					"@_target": "id-46454",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46577",
+					"@_source": "id-46322",
+					"@_target": "id-46578",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46455",
+					"@_source": "id-46358",
+					"@_target": "id-46456",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46457",
+					"@_source": "id-46355",
+					"@_target": "id-46458",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46579",
+					"@_source": "id-46369",
+					"@_target": "id-46569",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46459",
+					"@_source": "id-46353",
+					"@_target": "id-46330",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46460",
+					"@_source": "id-46353",
+					"@_target": "id-46366",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46580",
+					"@_source": "id-46369",
+					"@_target": "id-46574",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46581",
+					"@_source": "id-46411",
+					"@_target": "id-46369",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46461",
+					"@_source": "id-46353",
+					"@_target": "id-46322",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46582",
+					"@_source": "id-46405",
+					"@_target": "id-46322",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46610",
+					"@_source": "id-46594",
+					"@_target": "id-46611",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46612",
+					"@_source": "id-46594",
+					"@_target": "id-46613",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46727",
+					"@_source": "id-46611",
+					"@_target": "id-46594",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46614",
+					"@_source": "id-46594",
+					"@_target": "id-46613",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46728",
+					"@_source": "id-46729",
+					"@_target": "id-46730",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46731",
+					"@_source": "id-46732",
+					"@_target": "id-46733",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46729",
+					"@_source": "id-46613",
+					"@_target": "id-46611",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46615",
+					"@_source": "id-46594",
+					"@_target": "id-46611",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46616",
+					"@_source": "id-46595",
+					"@_target": "id-46617",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46618",
+					"@_source": "id-46595",
+					"@_target": "id-46619",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46620",
+					"@_source": "id-46595",
+					"@_target": "id-46621",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46734",
+					"@_source": "id-46613",
+					"@_target": "id-46693",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46622",
+					"@_source": "id-46596",
+					"@_target": "id-46623",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46624",
+					"@_source": "id-46607",
+					"@_target": "id-46625",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46626",
+					"@_source": "id-46608",
+					"@_target": "id-46627",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46628",
+					"@_source": "id-46594",
+					"@_target": "id-46595",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46735",
+					"@_source": "id-46617",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "financial risk"
+					}
+				},
+				{
+					"@_identifier": "id-46836",
+					"@_source": "id-46627",
+					"@_target": "id-46294",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46837",
+					"@_source": "id-46659",
+					"@_target": "id-46627",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46629",
+					"@_source": "id-46595",
+					"@_target": "id-46630",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46631",
+					"@_source": "id-46608",
+					"@_target": "id-46632",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46736",
+					"@_source": "id-46690",
+					"@_target": "id-46665",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "money"
+					}
+				},
+				{
+					"@_identifier": "id-46737",
+					"@_source": "id-46661",
+					"@_target": "id-46639",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46819",
+					"@_source": "id-46657",
+					"@_target": "id-46694",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46739",
+					"@_source": "id-46672",
+					"@_target": "id-46661",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46740",
+					"@_source": "id-46661",
+					"@_target": "id-46621",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46741",
+					"@_source": "id-46725",
+					"@_target": "id-46630",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46742",
+					"@_source": "id-46722",
+					"@_target": "id-46641",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46743",
+					"@_source": "id-46637",
+					"@_target": "id-46665",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "money"
+					}
+				},
+				{
+					"@_identifier": "id-46633",
+					"@_source": "id-46608",
+					"@_target": "id-46294",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46634",
+					"@_source": "id-46607",
+					"@_target": "id-46635",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46744",
+					"@_source": "id-46661",
+					"@_target": "id-46630",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46745",
+					"@_source": "id-46630",
+					"@_target": "id-46661",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46746",
+					"@_source": "id-46630",
+					"@_target": "id-46687",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "policies"
+					}
+				},
+				{
+					"@_identifier": "id-46636",
+					"@_source": "id-46595",
+					"@_target": "id-46637",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46838",
+					"@_source": "id-46635",
+					"@_target": "id-46625",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46638",
+					"@_source": "id-46595",
+					"@_target": "id-46639",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46747",
+					"@_source": "id-46711",
+					"@_target": "id-46690",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46839",
+					"@_source": "id-46643",
+					"@_target": "id-46659",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46748",
+					"@_source": "id-46694",
+					"@_target": "id-46667",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46640",
+					"@_source": "id-46608",
+					"@_target": "id-46641",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46749",
+					"@_source": "id-46637",
+					"@_target": "id-46661",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46840",
+					"@_source": "id-46627",
+					"@_target": "id-46293",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46750",
+					"@_source": "id-46613",
+					"@_target": "id-46689",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46751",
+					"@_source": "id-46645",
+					"@_target": "id-46613",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46642",
+					"@_source": "id-46608",
+					"@_target": "id-46643",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46644",
+					"@_source": "id-46607",
+					"@_target": "id-46645",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46841",
+					"@_source": "id-46641",
+					"@_target": "id-46643",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46752",
+					"@_source": "id-46721",
+					"@_target": "id-46635",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46753",
+					"@_source": "id-46727",
+					"@_target": "id-46754",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46646",
+					"@_source": "id-46615",
+					"@_target": "id-46647",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46648",
+					"@_source": "id-46612",
+					"@_target": "id-46649",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46755",
+					"@_source": "id-46756",
+					"@_target": "id-46702",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46650",
+					"@_source": "id-46610",
+					"@_target": "id-46651",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46652",
+					"@_source": "id-46614",
+					"@_target": "id-46653",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46654",
+					"@_source": "id-46607",
+					"@_target": "id-46655",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46757",
+					"@_source": "id-46667",
+					"@_target": "id-46324",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46758",
+					"@_source": "id-46637",
+					"@_target": "id-46667",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46656",
+					"@_source": "id-46596",
+					"@_target": "id-46657",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46759",
+					"@_source": "id-46667",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46760",
+					"@_source": "id-46703",
+					"@_target": "id-46706",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46761",
+					"@_source": "id-46665",
+					"@_target": "id-46690",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "money"
+					}
+				},
+				{
+					"@_identifier": "id-46658",
+					"@_source": "id-46608",
+					"@_target": "id-46659",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46842",
+					"@_source": "id-46625",
+					"@_target": "id-46655",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46762",
+					"@_source": "id-46661",
+					"@_target": "id-46595",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "documents"
+					}
+				},
+				{
+					"@_identifier": "id-46820",
+					"@_source": "id-46623",
+					"@_target": "id-46691",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46763",
+					"@_source": "id-46637",
+					"@_target": "id-46306",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46764",
+					"@_source": "id-46704",
+					"@_target": "id-46700",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-46765",
+					"@_source": "id-46661",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46766",
+					"@_source": "id-46617",
+					"@_target": "id-46356",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46767",
+					"@_source": "id-46630",
+					"@_target": "id-46324",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46660",
+					"@_source": "id-46595",
+					"@_target": "id-46661",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "documents"
+					}
+				},
+				{
+					"@_identifier": "id-46768",
+					"@_source": "id-46725",
+					"@_target": "id-46329",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46769",
+					"@_source": "id-46692",
+					"@_target": "id-46355",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46770",
+					"@_source": "id-46699",
+					"@_target": "id-46700",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-46771",
+					"@_source": "id-46632",
+					"@_target": "id-46613",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46662",
+					"@_source": "id-46608",
+					"@_target": "id-46329",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46772",
+					"@_source": "id-46691",
+					"@_target": "id-46692",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "product info"
+					}
+				},
+				{
+					"@_identifier": "id-46773",
+					"@_source": "id-46637",
+					"@_target": "id-46687",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "premium payment status"
+					}
+				},
+				{
+					"@_identifier": "id-46774",
+					"@_source": "id-46701",
+					"@_target": "id-46700",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-46775",
+					"@_source": "id-46697",
+					"@_target": "id-46700",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-46776",
+					"@_source": "id-46694",
+					"@_target": "id-46361",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46777",
+					"@_source": "id-46689",
+					"@_target": "id-46694",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "claims"
+					}
+				},
+				{
+					"@_identifier": "id-46778",
+					"@_source": "id-46691",
+					"@_target": "id-46357",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46779",
+					"@_source": "id-46637",
+					"@_target": "id-46360",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46780",
+					"@_source": "id-46705",
+					"@_target": "id-46700",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46781",
+					"@_source": "id-46692",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "new contracts, premiums due"
+					}
+				},
+				{
+					"@_identifier": "id-46782",
+					"@_source": "id-46700",
+					"@_target": "id-46706",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46783",
+					"@_source": "id-46613",
+					"@_target": "id-46688",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46784",
+					"@_source": "id-46693",
+					"@_target": "id-46694",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "customer info"
+					}
+				},
+				{
+					"@_identifier": "id-46663",
+					"@_source": "id-46607",
+					"@_target": "id-46329",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46785",
+					"@_source": "id-46617",
+					"@_target": "id-46324",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46786",
+					"@_source": "id-46617",
+					"@_target": "id-46630",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "premium info"
+					}
+				},
+				{
+					"@_identifier": "id-46787",
+					"@_source": "id-46617",
+					"@_target": "id-46691",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "premium info"
+					}
+				},
+				{
+					"@_identifier": "id-46664",
+					"@_source": "id-46595",
+					"@_target": "id-46665",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46788",
+					"@_source": "id-46630",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "financial obligations"
+					}
+				},
+				{
+					"@_identifier": "id-46789",
+					"@_source": "id-46692",
+					"@_target": "id-46688",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "policies"
+					}
+				},
+				{
+					"@_identifier": "id-46790",
+					"@_source": "id-46698",
+					"@_target": "id-46703",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-46666",
+					"@_source": "id-46595",
+					"@_target": "id-46667",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46821",
+					"@_source": "id-46623",
+					"@_target": "id-46692",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46791",
+					"@_source": "id-46665",
+					"@_target": "id-46306",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46756",
+					"@_source": "id-46725",
+					"@_target": "id-46617",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46792",
+					"@_source": "id-46703",
+					"@_target": "id-46705",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46793",
+					"@_source": "id-46665",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "money"
+					}
+				},
+				{
+					"@_identifier": "id-46794",
+					"@_source": "id-46687",
+					"@_target": "id-46637",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "claim payments due"
+					}
+				},
+				{
+					"@_identifier": "id-46795",
+					"@_source": "id-46691",
+					"@_target": "id-46693",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "product info"
+					}
+				},
+				{
+					"@_identifier": "id-46796",
+					"@_source": "id-46703",
+					"@_target": "id-46700",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46822",
+					"@_source": "id-46657",
+					"@_target": "id-46667",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46798",
+					"@_source": "id-46694",
+					"@_target": "id-46692",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "customer info"
+					}
+				},
+				{
+					"@_identifier": "id-46799",
+					"@_source": "id-46688",
+					"@_target": "id-46692",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "requests"
+					}
+				},
+				{
+					"@_identifier": "id-46800",
+					"@_source": "id-46694",
+					"@_target": "id-46687",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "claims"
+					}
+				},
+				{
+					"@_identifier": "id-46732",
+					"@_source": "id-46611",
+					"@_target": "id-46613",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46668",
+					"@_source": "id-46594",
+					"@_target": "id-46619",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46669",
+					"@_source": "id-46594",
+					"@_target": "id-46621",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46670",
+					"@_source": "id-46594",
+					"@_target": "id-46639",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46671",
+					"@_source": "id-46594",
+					"@_target": "id-46672",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46673",
+					"@_source": "id-46594",
+					"@_target": "id-46596",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46926",
+					"@_source": "id-46924",
+					"@_target": "id-46922",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46927",
+					"@_source": "id-46914",
+					"@_target": "id-46862",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "customer data"
+					}
+				},
+				{
+					"@_identifier": "id-46857",
+					"@_source": "id-46304",
+					"@_target": "id-46299",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46928",
+					"@_source": "id-46918",
+					"@_target": "id-46915",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46929",
+					"@_source": "id-46860",
+					"@_target": "id-46915",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "document data"
+					}
+				},
+				{
+					"@_identifier": "id-46930",
+					"@_source": "id-46299",
+					"@_target": "id-46617",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46931",
+					"@_source": "id-46913",
+					"@_target": "id-46860",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46932",
+					"@_source": "id-46862",
+					"@_target": "id-46916",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "CRM data"
+					}
+				},
+				{
+					"@_identifier": "id-46933",
+					"@_source": "id-46917",
+					"@_target": "id-46864",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47023",
+					"@_source": "id-46871",
+					"@_target": "id-46873",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46934",
+					"@_source": "id-46909",
+					"@_target": "id-46627",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46935",
+					"@_source": "id-46864",
+					"@_target": "id-46916",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46936",
+					"@_source": "id-46903",
+					"@_target": "id-46304",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46859",
+					"@_source": "id-46304",
+					"@_target": "id-46860",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "document data"
+					}
+				},
+				{
+					"@_identifier": "id-46937",
+					"@_source": "id-46921",
+					"@_target": "id-46924",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-46938",
+					"@_source": "id-46860",
+					"@_target": "id-46918",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "document data"
+					}
+				},
+				{
+					"@_identifier": "id-46939",
+					"@_source": "id-46918",
+					"@_target": "id-46908",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46940",
+					"@_source": "id-46915",
+					"@_target": "id-46918",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46941",
+					"@_source": "id-46914",
+					"@_target": "id-46667",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46942",
+					"@_source": "id-46895",
+					"@_target": "id-46900",
+					"@_xsi:type": "Access",
+					"@_accessType": "Write"
+				},
+				{
+					"@_identifier": "id-46943",
+					"@_source": "id-46905",
+					"@_target": "id-46625",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47024",
+					"@_source": "id-46866",
+					"@_target": "id-46871",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46945",
+					"@_source": "id-46913",
+					"@_target": "id-46864",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "customer data"
+					}
+				},
+				{
+					"@_identifier": "id-47025",
+					"@_source": "id-46877",
+					"@_target": "id-46873",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46946",
+					"@_source": "id-46901",
+					"@_target": "id-46700",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46947",
+					"@_source": "id-46899",
+					"@_target": "id-46706",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46948",
+					"@_source": "id-46913",
+					"@_target": "id-46862",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46949",
+					"@_source": "id-46862",
+					"@_target": "id-46904",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46950",
+					"@_source": "id-46860",
+					"@_target": "id-46914",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "document data"
+					}
+				},
+				{
+					"@_identifier": "id-47026",
+					"@_source": "id-46877",
+					"@_target": "id-46871",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47027",
+					"@_source": "id-46881",
+					"@_target": "id-46873",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46951",
+					"@_source": "id-46879",
+					"@_target": "id-46501",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47028",
+					"@_source": "id-46877",
+					"@_target": "id-46866",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46952",
+					"@_source": "id-46914",
+					"@_target": "id-46860",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46953",
+					"@_source": "id-46918",
+					"@_target": "id-46862",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46954",
+					"@_source": "id-46900",
+					"@_target": "id-46698",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46955",
+					"@_source": "id-46894",
+					"@_target": "id-46899",
+					"@_xsi:type": "Access",
+					"@_accessType": "Write"
+				},
+				{
+					"@_identifier": "id-46956",
+					"@_source": "id-46907",
+					"@_target": "id-46294",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46958",
+					"@_source": "id-46864",
+					"@_target": "id-46917",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46959",
+					"@_source": "id-46960",
+					"@_target": "id-46898",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-46961",
+					"@_source": "id-46918",
+					"@_target": "id-46860",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46962",
+					"@_source": "id-46860",
+					"@_target": "id-46304",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46963",
+					"@_source": "id-46906",
+					"@_target": "id-46294",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46964",
+					"@_source": "id-46860",
+					"@_target": "id-46913",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "document data"
+					}
+				},
+				{
+					"@_identifier": "id-46965",
+					"@_source": "id-46917",
+					"@_target": "id-46916",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "call report"
+					}
+				},
+				{
+					"@_identifier": "id-46966",
+					"@_source": "id-46894",
+					"@_target": "id-46901",
+					"@_xsi:type": "Access",
+					"@_accessType": "Write"
+				},
+				{
+					"@_identifier": "id-46861",
+					"@_source": "id-46304",
+					"@_target": "id-46862",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "customer data"
+					}
+				},
+				{
+					"@_identifier": "id-47029",
+					"@_source": "id-46881",
+					"@_target": "id-46871",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46968",
+					"@_source": "id-46862",
+					"@_target": "id-46917",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46960",
+					"@_source": "id-46922",
+					"@_target": "id-46725",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46969",
+					"@_source": "id-46917",
+					"@_target": "id-46862",
+					"@_xsi:type": "Flow",
+					"name": {
+						"@_xml:lang": "en",
+						"#text": "call report"
+					}
+				},
+				{
+					"@_identifier": "id-46970",
+					"@_source": "id-46916",
+					"@_target": "id-46694",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46971",
+					"@_source": "id-46904",
+					"@_target": "id-46635",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46972",
+					"@_source": "id-46299",
+					"@_target": "id-46304",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46973",
+					"@_source": "id-46918",
+					"@_target": "id-46667",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46974",
+					"@_source": "id-46917",
+					"@_target": "id-46694",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46975",
+					"@_source": "id-46909",
+					"@_target": "id-46659",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46976",
+					"@_source": "id-46868",
+					"@_target": "id-46497",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47030",
+					"@_source": "id-46881",
+					"@_target": "id-46877",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46977",
+					"@_source": "id-46299",
+					"@_target": "id-46923",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46978",
+					"@_source": "id-46913",
+					"@_target": "id-46630",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46979",
+					"@_source": "id-46862",
+					"@_target": "id-46903",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46980",
+					"@_source": "id-46905",
+					"@_target": "id-46635",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46981",
+					"@_source": "id-46903",
+					"@_target": "id-46512",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46982",
+					"@_source": "id-46910",
+					"@_target": "id-46641",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46983",
+					"@_source": "id-46879",
+					"@_target": "id-46608",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46984",
+					"@_source": "id-46918",
+					"@_target": "id-46630",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46863",
+					"@_source": "id-46304",
+					"@_target": "id-46864",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-46985",
+					"@_source": "id-46879",
+					"@_target": "id-46607",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46865",
+					"@_source": "id-46304",
+					"@_target": "id-46866",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46986",
+					"@_source": "id-46909",
+					"@_target": "id-46643",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46867",
+					"@_source": "id-46304",
+					"@_target": "id-46868",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46987",
+					"@_source": "id-46913",
+					"@_target": "id-46637",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46869",
+					"@_source": "id-46304",
+					"@_target": "id-46688",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46988",
+					"@_source": "id-46914",
+					"@_target": "id-46630",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46989",
+					"@_source": "id-46918",
+					"@_target": "id-46894",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-46870",
+					"@_source": "id-46304",
+					"@_target": "id-46871",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46990",
+					"@_source": "id-46915",
+					"@_target": "id-46637",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46872",
+					"@_source": "id-46304",
+					"@_target": "id-46873",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46874",
+					"@_source": "id-46304",
+					"@_target": "id-46637",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46991",
+					"@_source": "id-46923",
+					"@_target": "id-46922",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46992",
+					"@_source": "id-46923",
+					"@_target": "id-46924",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46993",
+					"@_source": "id-46914",
+					"@_target": "id-46617",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46994",
+					"@_source": "id-46919",
+					"@_target": "id-46689",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46995",
+					"@_source": "id-46918",
+					"@_target": "id-46909",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46875",
+					"@_source": "id-46304",
+					"@_target": "id-46617",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46996",
+					"@_source": "id-46860",
+					"@_target": "id-46910",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46997",
+					"@_source": "id-46919",
+					"@_target": "id-46694",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46998",
+					"@_source": "id-46915",
+					"@_target": "id-46906",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-46999",
+					"@_source": "id-46864",
+					"@_target": "id-46637",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47000",
+					"@_source": "id-46923",
+					"@_target": "id-46921",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47001",
+					"@_source": "id-46903",
+					"@_target": "id-46608",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47002",
+					"@_source": "id-46907",
+					"@_target": "id-46659",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47003",
+					"@_source": "id-46860",
+					"@_target": "id-46907",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47004",
+					"@_source": "id-46868",
+					"@_target": "id-46608",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47005",
+					"@_source": "id-46916",
+					"@_target": "id-46689",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46876",
+					"@_source": "id-46304",
+					"@_target": "id-46877",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-46878",
+					"@_source": "id-46304",
+					"@_target": "id-46879",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47006",
+					"@_source": "id-46864",
+					"@_target": "id-46694",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47007",
+					"@_source": "id-46918",
+					"@_target": "id-46905",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47008",
+					"@_source": "id-46860",
+					"@_target": "id-46661",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46880",
+					"@_source": "id-46304",
+					"@_target": "id-46881",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47031",
+					"@_source": "id-46871",
+					"@_target": "id-46866",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47009",
+					"@_source": "id-46904",
+					"@_target": "id-46641",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47032",
+					"@_source": "id-46881",
+					"@_target": "id-46866",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47010",
+					"@_source": "id-46918",
+					"@_target": "id-46895",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47011",
+					"@_source": "id-46913",
+					"@_target": "id-46667",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47012",
+					"@_source": "id-46908",
+					"@_target": "id-46655",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-46882",
+					"@_source": "id-46304",
+					"@_target": "id-46667",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47105",
+					"@_source": "id-47106",
+					"@_target": "id-47075",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47107",
+					"@_source": "id-47088",
+					"@_target": "id-47074",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47108",
+					"@_source": "id-47098",
+					"@_target": "id-47089",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47109",
+					"@_source": "id-47087",
+					"@_target": "id-47069",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47110",
+					"@_source": "id-47093",
+					"@_target": "id-47079",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47111",
+					"@_source": "id-47097",
+					"@_target": "id-47093",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47112",
+					"@_source": "id-47087",
+					"@_target": "id-47072",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47113",
+					"@_source": "id-47087",
+					"@_target": "id-46918",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47114",
+					"@_source": "id-47092",
+					"@_target": "id-47097",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47115",
+					"@_source": "id-47093",
+					"@_target": "id-46860",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47116",
+					"@_source": "id-47103",
+					"@_target": "id-47117",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47118",
+					"@_source": "id-47054",
+					"@_target": "id-47101",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47119",
+					"@_source": "id-47091",
+					"@_target": "id-46298",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47120",
+					"@_source": "id-47101",
+					"@_target": "id-47117",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47121",
+					"@_source": "id-47091",
+					"@_target": "id-47070",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47122",
+					"@_source": "id-47087",
+					"@_target": "id-47070",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47123",
+					"@_source": "id-47090",
+					"@_target": "id-47052",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47124",
+					"@_source": "id-47094",
+					"@_target": "id-46860",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47125",
+					"@_source": "id-47088",
+					"@_target": "id-47078",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47126",
+					"@_source": "id-47094",
+					"@_target": "id-47079",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47166",
+					"@_source": "id-47056",
+					"@_target": "id-47058",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47127",
+					"@_source": "id-47052",
+					"@_target": "id-47087",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47128",
+					"@_source": "id-47054",
+					"@_target": "id-47102",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47129",
+					"@_source": "id-47052",
+					"@_target": "id-47094",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47130",
+					"@_source": "id-47100",
+					"@_target": "id-47045",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47131",
+					"@_source": "id-47090",
+					"@_target": "id-47073",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47132",
+					"@_source": "id-47058",
+					"@_target": "id-47133",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47106",
+					"@_source": "id-47058",
+					"@_target": "id-46921",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47134",
+					"@_source": "id-47052",
+					"@_target": "id-47098",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47135",
+					"@_source": "id-47054",
+					"@_target": "id-47133",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47136",
+					"@_source": "id-47088",
+					"@_target": "id-46917",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47137",
+					"@_source": "id-47089",
+					"@_target": "id-47077",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47138",
+					"@_source": "id-47087",
+					"@_target": "id-46299",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47139",
+					"@_source": "id-47092",
+					"@_target": "id-46914",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47140",
+					"@_source": "id-47089",
+					"@_target": "id-46913",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47141",
+					"@_source": "id-47087",
+					"@_target": "id-46915",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47142",
+					"@_source": "id-47088",
+					"@_target": "id-46864",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47143",
+					"@_source": "id-47070",
+					"@_target": "id-46304",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47144",
+					"@_source": "id-47088",
+					"@_target": "id-47071",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47145",
+					"@_source": "id-47088",
+					"@_target": "id-46862",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47146",
+					"@_source": "id-47097",
+					"@_target": "id-47098",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47147",
+					"@_source": "id-47074",
+					"@_target": "id-46862",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47148",
+					"@_source": "id-47092",
+					"@_target": "id-47076",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47149",
+					"@_source": "id-47097",
+					"@_target": "id-47091",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47150",
+					"@_source": "id-47088",
+					"@_target": "id-47052",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47151",
+					"@_source": "id-47090",
+					"@_target": "id-46916",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47152",
+					"@_source": "id-47054",
+					"@_target": "id-47103",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47153",
+					"@_source": "id-47084",
+					"@_target": "id-47058",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47180",
+					"@_source": "id-47178",
+					"@_target": "id-47174",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47181",
+					"@_source": "id-47174",
+					"@_target": "id-47117",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-47183",
+					"@_source": "id-47175",
+					"@_target": "id-47045",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47184",
+					"@_source": "id-47173",
+					"@_target": "id-47117",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-47185",
+					"@_source": "id-47169",
+					"@_target": "id-47174",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47186",
+					"@_source": "id-47172",
+					"@_target": "id-47117",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-47187",
+					"@_source": "id-47117",
+					"@_target": "id-47045",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47188",
+					"@_source": "id-47117",
+					"@_target": "id-47084",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47189",
+					"@_source": "id-47171",
+					"@_target": "id-47117",
+					"@_xsi:type": "Specialization"
+				},
+				{
+					"@_identifier": "id-47190",
+					"@_source": "id-47178",
+					"@_target": "id-47172",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47050",
+					"@_source": "id-47045",
+					"@_target": "id-46299",
+					"@_xsi:type": "Flow"
+				},
+				{
+					"@_identifier": "id-47051",
+					"@_source": "id-47045",
+					"@_target": "id-47052",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47053",
+					"@_source": "id-47045",
+					"@_target": "id-47054",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47055",
+					"@_source": "id-47045",
+					"@_target": "id-47056",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47057",
+					"@_source": "id-47045",
+					"@_target": "id-47058",
+					"@_xsi:type": "Assignment"
+				},
+				{
+					"@_identifier": "id-47273",
+					"@_source": "id-46517",
+					"@_target": "id-47201",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47274",
+					"@_source": "id-46517",
+					"@_target": "id-47252",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47275",
+					"@_source": "id-46499",
+					"@_target": "id-47252",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47276",
+					"@_source": "id-47261",
+					"@_target": "id-47263",
+					"@_xsi:type": "Influence",
+					"@_modifier": "++"
+				},
+				{
+					"@_identifier": "id-47277",
+					"@_source": "id-47263",
+					"@_target": "id-46552",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47278",
+					"@_source": "id-47238",
+					"@_target": "id-47227",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47279",
+					"@_source": "id-47259",
+					"@_target": "id-47210",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47280",
+					"@_source": "id-47220",
+					"@_target": "id-47232",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47281",
+					"@_source": "id-46316",
+					"@_target": "id-46571",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47282",
+					"@_source": "id-47263",
+					"@_target": "id-46549",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47283",
+					"@_source": "id-47259",
+					"@_target": "id-47208",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47284",
+					"@_source": "id-47263",
+					"@_target": "id-47241",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47285",
+					"@_source": "id-47259",
+					"@_target": "id-47257",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47286",
+					"@_source": "id-47261",
+					"@_target": "id-47257",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47287",
+					"@_source": "id-47263",
+					"@_target": "id-47235",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47288",
+					"@_source": "id-47208",
+					"@_target": "id-47263",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47289",
+					"@_source": "id-46499",
+					"@_target": "id-47252",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47290",
+					"@_source": "id-46512",
+					"@_target": "id-46499",
+					"@_xsi:type": "Influence",
+					"@_modifier": "++"
+				},
+				{
+					"@_identifier": "id-47291",
+					"@_source": "id-46499",
+					"@_target": "id-47249",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47292",
+					"@_source": "id-46578",
+					"@_target": "id-47247",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47293",
+					"@_source": "id-47262",
+					"@_target": "id-47263",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47294",
+					"@_source": "id-47259",
+					"@_target": "id-47261",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47295",
+					"@_source": "id-47239",
+					"@_target": "id-47250",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47296",
+					"@_source": "id-47247",
+					"@_target": "id-46565",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47297",
+					"@_source": "id-46517",
+					"@_target": "id-47252",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47298",
+					"@_source": "id-47259",
+					"@_target": "id-47239",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47299",
+					"@_source": "id-46503",
+					"@_target": "id-46497",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47300",
+					"@_source": "id-46512",
+					"@_target": "id-46517",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47301",
+					"@_source": "id-47220",
+					"@_target": "id-47206",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47302",
+					"@_source": "id-47259",
+					"@_target": "id-47250",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47303",
+					"@_source": "id-47261",
+					"@_target": "id-47259",
+					"@_xsi:type": "Influence",
+					"@_modifier": "-"
+				},
+				{
+					"@_identifier": "id-47304",
+					"@_source": "id-46557",
+					"@_target": "id-47263",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47305",
+					"@_source": "id-46571",
+					"@_target": "id-46578",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47306",
+					"@_source": "id-47259",
+					"@_target": "id-46563",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47307",
+					"@_source": "id-46503",
+					"@_target": "id-46501",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47308",
+					"@_source": "id-47208",
+					"@_target": "id-47201",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47309",
+					"@_source": "id-47238",
+					"@_target": "id-47221",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47310",
+					"@_source": "id-47263",
+					"@_target": "id-46561",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47311",
+					"@_source": "id-47263",
+					"@_target": "id-46559",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47312",
+					"@_source": "id-47262",
+					"@_target": "id-47257",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47313",
+					"@_source": "id-47220",
+					"@_target": "id-47211",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47314",
+					"@_source": "id-47250",
+					"@_target": "id-47252",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47315",
+					"@_source": "id-47220",
+					"@_target": "id-47209",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47316",
+					"@_source": "id-47263",
+					"@_target": "id-47257",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47317",
+					"@_source": "id-47263",
+					"@_target": "id-46576",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47318",
+					"@_source": "id-46503",
+					"@_target": "id-46499",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47319",
+					"@_source": "id-47263",
+					"@_target": "id-46563",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47320",
+					"@_source": "id-47244",
+					"@_target": "id-47208",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47321",
+					"@_source": "id-47261",
+					"@_target": "id-46563",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47322",
+					"@_source": "id-47247",
+					"@_target": "id-47250",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47323",
+					"@_source": "id-47249",
+					"@_target": "id-47250",
+					"@_xsi:type": "Influence",
+					"@_modifier": "-"
+				},
+				{
+					"@_identifier": "id-47324",
+					"@_source": "id-46565",
+					"@_target": "id-47247",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47325",
+					"@_source": "id-47244",
+					"@_target": "id-47250",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47326",
+					"@_source": "id-46557",
+					"@_target": "id-46565",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47327",
+					"@_source": "id-47257",
+					"@_target": "id-47248",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47328",
+					"@_source": "id-46574",
+					"@_target": "id-47247",
+					"@_xsi:type": "Influence",
+					"@_modifier": "++"
+				},
+				{
+					"@_identifier": "id-47329",
+					"@_source": "id-46569",
+					"@_target": "id-47249",
+					"@_xsi:type": "Influence",
+					"@_modifier": "++"
+				},
+				{
+					"@_identifier": "id-47330",
+					"@_source": "id-47247",
+					"@_target": "id-47248",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47331",
+					"@_source": "id-47256",
+					"@_target": "id-46565",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47332",
+					"@_source": "id-46336",
+					"@_target": "id-46563",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47333",
+					"@_source": "id-47246",
+					"@_target": "id-47257",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47334",
+					"@_source": "id-47245",
+					"@_target": "id-47250",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47335",
+					"@_source": "id-46563",
+					"@_target": "id-46574",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47336",
+					"@_source": "id-46336",
+					"@_target": "id-46569",
+					"@_xsi:type": "Influence"
+				},
+				{
+					"@_identifier": "id-47337",
+					"@_source": "id-47257",
+					"@_target": "id-47249",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47338",
+					"@_source": "id-47255",
+					"@_target": "id-46557",
+					"@_xsi:type": "Association"
+				},
+				{
+					"@_identifier": "id-47339",
+					"@_source": "id-47257",
+					"@_target": "id-47252",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47340",
+					"@_source": "id-47248",
+					"@_target": "id-47250",
+					"@_xsi:type": "Influence",
+					"@_modifier": "+"
+				},
+				{
+					"@_identifier": "id-47400",
+					"@_source": "id-46302",
+					"@_target": "id-46339",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-47353",
+					"@_source": "id-47347",
+					"@_target": "id-47354",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47401",
+					"@_source": "id-47396",
+					"@_target": "id-46409",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47402",
+					"@_source": "id-46339",
+					"@_target": "id-46333",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47403",
+					"@_source": "id-46310",
+					"@_target": "id-46301",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-47404",
+					"@_source": "id-46339",
+					"@_target": "id-46917",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47405",
+					"@_source": "id-46339",
+					"@_target": "id-46429",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47406",
+					"@_source": "id-46310",
+					"@_target": "id-46435",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47407",
+					"@_source": "id-47396",
+					"@_target": "id-46309",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-47408",
+					"@_source": "id-46327",
+					"@_target": "id-46301",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-47409",
+					"@_source": "id-47396",
+					"@_target": "id-46307",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47410",
+					"@_source": "id-46339",
+					"@_target": "id-46916",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47411",
+					"@_source": "id-47396",
+					"@_target": "id-46356",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47412",
+					"@_source": "id-46327",
+					"@_target": "id-46429",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47413",
+					"@_source": "id-46339",
+					"@_target": "id-46435",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47355",
+					"@_source": "id-47347",
+					"@_target": "id-47356",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47414",
+					"@_source": "id-47396",
+					"@_target": "id-46361",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47415",
+					"@_source": "id-47396",
+					"@_target": "id-46435",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47417",
+					"@_source": "id-46339",
+					"@_target": "id-46862",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47418",
+					"@_source": "id-46339",
+					"@_target": "id-46439",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47419",
+					"@_source": "id-46327",
+					"@_target": "id-46379",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47420",
+					"@_source": "id-47396",
+					"@_target": "id-46355",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47421",
+					"@_source": "id-46339",
+					"@_target": "id-46427",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47422",
+					"@_source": "id-47396",
+					"@_target": "id-46864",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47423",
+					"@_source": "id-46310",
+					"@_target": "id-46361",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47426",
+					"@_source": "id-46339",
+					"@_target": "id-46919",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47357",
+					"@_source": "id-47347",
+					"@_target": "id-47358",
+					"@_xsi:type": "Composition"
+				},
+				{
+					"@_identifier": "id-47427",
+					"@_source": "id-47396",
+					"@_target": "id-46357",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47429",
+					"@_source": "id-47392",
+					"@_target": "id-46339",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47430",
+					"@_source": "id-46339",
+					"@_target": "id-46299",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47431",
+					"@_source": "id-46339",
+					"@_target": "id-46425",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47432",
+					"@_source": "id-47393",
+					"@_target": "id-46339",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47433",
+					"@_source": "id-46339",
+					"@_target": "id-46304",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47434",
+					"@_source": "id-46327",
+					"@_target": "id-46325",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47435",
+					"@_source": "id-47396",
+					"@_target": "id-46325",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47436",
+					"@_source": "id-47396",
+					"@_target": "id-46915",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47437",
+					"@_source": "id-46339",
+					"@_target": "id-46919",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47438",
+					"@_source": "id-46310",
+					"@_target": "id-46917",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47439",
+					"@_source": "id-47396",
+					"@_target": "id-46379",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47440",
+					"@_source": "id-46339",
+					"@_target": "id-46860",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47441",
+					"@_source": "id-47396",
+					"@_target": "id-46449",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47442",
+					"@_source": "id-47396",
+					"@_target": "id-46429",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47443",
+					"@_source": "id-47396",
+					"@_target": "id-46358",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47444",
+					"@_source": "id-46310",
+					"@_target": "id-46411",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47445",
+					"@_source": "id-46327",
+					"@_target": "id-46409",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47446",
+					"@_source": "id-47396",
+					"@_target": "id-46359",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47447",
+					"@_source": "id-47396",
+					"@_target": "id-46427",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47448",
+					"@_source": "id-47392",
+					"@_target": "id-46302",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47449",
+					"@_source": "id-46339",
+					"@_target": "id-46361",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47450",
+					"@_source": "id-46327",
+					"@_target": "id-46427",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47451",
+					"@_source": "id-47396",
+					"@_target": "id-46360",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47452",
+					"@_source": "id-47396",
+					"@_target": "id-46384",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47359",
+					"@_source": "id-47347",
+					"@_target": "id-46339",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47453",
+					"@_source": "id-47396",
+					"@_target": "id-46913",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47454",
+					"@_source": "id-46339",
+					"@_target": "id-46355",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47455",
+					"@_source": "id-47392",
+					"@_target": "id-46310",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47456",
+					"@_source": "id-47396",
+					"@_target": "id-46411",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47360",
+					"@_source": "id-47347",
+					"@_target": "id-46327",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47458",
+					"@_source": "id-47396",
+					"@_target": "id-46914",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47459",
+					"@_source": "id-46310",
+					"@_target": "id-46449",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47461",
+					"@_source": "id-47396",
+					"@_target": "id-46918",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47361",
+					"@_source": "id-47347",
+					"@_target": "id-46302",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47462",
+					"@_source": "id-46339",
+					"@_target": "id-46437",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47463",
+					"@_source": "id-46339",
+					"@_target": "id-46862",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47464",
+					"@_source": "id-46339",
+					"@_target": "id-46304",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47465",
+					"@_source": "id-46339",
+					"@_target": "id-46860",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47466",
+					"@_source": "id-46339",
+					"@_target": "id-46449",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47467",
+					"@_source": "id-46339",
+					"@_target": "id-46916",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47468",
+					"@_source": "id-46339",
+					"@_target": "id-46358",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47469",
+					"@_source": "id-46339",
+					"@_target": "id-46357",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47470",
+					"@_source": "id-46339",
+					"@_target": "id-46917",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47471",
+					"@_source": "id-46339",
+					"@_target": "id-46325",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47472",
+					"@_source": "id-46339",
+					"@_target": "id-46379",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47473",
+					"@_source": "id-46339",
+					"@_target": "id-46359",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47474",
+					"@_source": "id-46339",
+					"@_target": "id-46339",
+					"@_xsi:type": "Triggering"
+				},
+				{
+					"@_identifier": "id-47475",
+					"@_source": "id-46339",
+					"@_target": "id-46299",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47476",
+					"@_source": "id-46339",
+					"@_target": "id-46356",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47477",
+					"@_source": "id-46339",
+					"@_target": "id-46409",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47478",
+					"@_source": "id-46339",
+					"@_target": "id-46411",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47479",
+					"@_source": "id-46339",
+					"@_target": "id-46384",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47480",
+					"@_source": "id-46339",
+					"@_target": "id-46360",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47481",
+					"@_source": "id-46339",
+					"@_target": "id-46307",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47378",
+					"@_source": "id-47354",
+					"@_target": "id-47379",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47380",
+					"@_source": "id-47356",
+					"@_target": "id-47381",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47483",
+					"@_source": "id-47392",
+					"@_target": "id-46338",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47484",
+					"@_source": "id-46339",
+					"@_target": "id-46319",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47485",
+					"@_source": "id-46339",
+					"@_target": "id-46333",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47362",
+					"@_source": "id-47347",
+					"@_target": "id-46338",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47486",
+					"@_source": "id-47393",
+					"@_target": "id-46338",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47382",
+					"@_source": "id-47358",
+					"@_target": "id-46914",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47383",
+					"@_source": "id-47356",
+					"@_target": "id-47087",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47384",
+					"@_source": "id-47354",
+					"@_target": "id-46304",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47487",
+					"@_source": "id-47393",
+					"@_target": "id-46299",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47488",
+					"@_source": "id-47392",
+					"@_target": "id-46864",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47385",
+					"@_source": "id-47356",
+					"@_target": "id-47091",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47386",
+					"@_source": "id-47358",
+					"@_target": "id-47092",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47387",
+					"@_source": "id-47358",
+					"@_target": "id-46915",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47489",
+					"@_source": "id-47392",
+					"@_target": "id-46862",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47388",
+					"@_source": "id-47358",
+					"@_target": "id-47089",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47490",
+					"@_source": "id-47393",
+					"@_target": "id-47045",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47389",
+					"@_source": "id-47358",
+					"@_target": "id-46913",
+					"@_xsi:type": "Realization"
+				},
+				{
+					"@_identifier": "id-47513",
+					"@_source": "id-47501",
+					"@_target": "id-46916",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47514",
+					"@_source": "id-47501",
+					"@_target": "id-46917",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47515",
+					"@_source": "id-47511",
+					"@_target": "id-47502",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47516",
+					"@_source": "id-47510",
+					"@_target": "id-47097",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47517",
+					"@_source": "id-47504",
+					"@_target": "id-46860",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47518",
+					"@_source": "id-47509",
+					"@_target": "id-47169",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47519",
+					"@_source": "id-47133",
+					"@_target": "id-47103",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47520",
+					"@_source": "id-47503",
+					"@_target": "id-46918",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47521",
+					"@_source": "id-47509",
+					"@_target": "id-47174",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47522",
+					"@_source": "id-47501",
+					"@_target": "id-46864",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47523",
+					"@_source": "id-47133",
+					"@_target": "id-47102",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47524",
+					"@_source": "id-47503",
+					"@_target": "id-46304",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47525",
+					"@_source": "id-47506",
+					"@_target": "id-47094",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47526",
+					"@_source": "id-47508",
+					"@_target": "id-47506",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47527",
+					"@_source": "id-47501",
+					"@_target": "id-47088",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47528",
+					"@_source": "id-47508",
+					"@_target": "id-47045",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47529",
+					"@_source": "id-47510",
+					"@_target": "id-47504",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47530",
+					"@_source": "id-47508",
+					"@_target": "id-47501",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47531",
+					"@_source": "id-47501",
+					"@_target": "id-47090",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47532",
+					"@_source": "id-47508",
+					"@_target": "id-47052",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47533",
+					"@_source": "id-47503",
+					"@_target": "id-46913",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47534",
+					"@_source": "id-47510",
+					"@_target": "id-47505",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47535",
+					"@_source": "id-47502",
+					"@_target": "id-47089",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47536",
+					"@_source": "id-47504",
+					"@_target": "id-47093",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47537",
+					"@_source": "id-47503",
+					"@_target": "id-46915",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47538",
+					"@_source": "id-47509",
+					"@_target": "id-47178",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47539",
+					"@_source": "id-47133",
+					"@_target": "id-47101",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47540",
+					"@_source": "id-47503",
+					"@_target": "id-46299",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47541",
+					"@_source": "id-47505",
+					"@_target": "id-47092",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47542",
+					"@_source": "id-47506",
+					"@_target": "id-47087",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47543",
+					"@_source": "id-47509",
+					"@_target": "id-47172",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47544",
+					"@_source": "id-47509",
+					"@_target": "id-47173",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47545",
+					"@_source": "id-47503",
+					"@_target": "id-46914",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47546",
+					"@_source": "id-47501",
+					"@_target": "id-46862",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47547",
+					"@_source": "id-47509",
+					"@_target": "id-47171",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47548",
+					"@_source": "id-47504",
+					"@_target": "id-47091",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47549",
+					"@_source": "id-47133",
+					"@_target": "id-47117",
+					"@_xsi:type": "Serving"
+				},
+				{
+					"@_identifier": "id-47550",
+					"@_source": "id-47509",
+					"@_target": "id-47117",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47551",
+					"@_source": "id-47508",
+					"@_target": "id-46596",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47552",
+					"@_source": "id-47510",
+					"@_target": "id-46672",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47553",
+					"@_source": "id-47511",
+					"@_target": "id-46619",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47554",
+					"@_source": "id-47510",
+					"@_target": "id-46621",
+					"@_xsi:type": "Aggregation"
+				},
+				{
+					"@_identifier": "id-47555",
+					"@_source": "id-47508",
+					"@_target": "id-46639",
+					"@_xsi:type": "Aggregation"
+				}
+			]
+		},
+		"organizations": "",
+		"views": ""
+	}
+}

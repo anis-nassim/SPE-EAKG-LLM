@@ -1,0 +1,26 @@
+What are requirement to realize "Reduction of coast"
+What is the role of "Shared Back Office Application for All Products"
+What are sub goals of "Reduction of coast"
+What are assessments related to "Profitability"
+What goals influence "Profitablity"
+Why we have "Reduction of coast"
+What are principles realizes "Reduction of coast"
+What realizes "Detailed Insights in Customer Behavior"
+What is the organization of the enterprise (describe locations and actors)
+Give me capabilities map overview (different groups of capabilities)
+What capabilities are related together (groupings)
+What are different categories of capabilities we have
+What capabilities needs clarification or integration (redundant capabilities on different categories have similar names)
+What are capabilities serving value streams
+What are relations between business functions
+What realizes "Customer Management"
+What are business functions realizes capabilities
+What are the main business process (are not subprocess of other process)
+What triggers "Notify Additional Stakeholders"
+What triggers "Claim Rejected"
+What is the structure of "Handle Claim" (subprocess)
+What are all business requirements
+What are elements realize "Support for Financial Transactions"
+What are all elements realize business requirement
+What are all resources supporting capabilities
+What are resources supports "Money Management"

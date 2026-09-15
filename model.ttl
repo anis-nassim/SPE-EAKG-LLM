@@ -1,0 +1,4372 @@
+@prefix archimate: <http://www.opengroup.org/xsd/archimate/3.0#> .
+@prefix ex: <http://www.example.org/eakg#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/eakg> a owl:Ontology ;
+    rdfs:label "EAKG Base Graph — Construction Pattern" ;
+    rdfs:comment """Generic mechanism for Phase 1 (Knowledge Graph Creation / base graph)
+of the Model-based EA Knowledge Graph construction process (Glaser, Ali,
+Sallinger & Bork, 2022), applied per the ArchiMate Model Exchange File
+Format (The Open Group, 2019, v3.1).
+
+This file defines ONLY the reusable construction pattern behind Rules 1-3.
+It does not enumerate any ArchiMate element or relationship types — that
+closed vocabulary is supplied externally, at population time, from the
+actual model being translated.""" .
+
+ex:id-46292 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46295 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46297 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46300 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46303 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46305 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46308 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46314 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46315 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    ex:id-46314 ex:id-46316 .
+
+ex:id-46317 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46318 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (4)"@en ;
+    ex:id-46317 ex:id-46319 .
+
+ex:id-46320 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46323 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46326 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46328 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46331 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46332 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (9)"@en ;
+    ex:id-46331 ex:id-46333 .
+
+ex:id-46334 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46335 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    ex:id-46334 ex:id-46336 .
+
+ex:id-46337 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46341 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (15)"@en .
+
+ex:id-46342 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (13)"@en .
+
+ex:id-46343 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (12)"@en .
+
+ex:id-46344 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (14)"@en .
+
+ex:id-46353 a archimate:ValueStream,
+        owl:NamedIndividual ;
+    rdfs:label "Acquire Insurance Product"@en ;
+    ex:id-46372 ex:id-46369 ;
+    ex:id-46421 ex:id-46330 ;
+    ex:id-46422 ex:id-46369 ;
+    ex:id-46444 ex:id-46322 ;
+    ex:id-46452 ex:id-46366 ;
+    ex:id-46459 ex:id-46330 ;
+    ex:id-46460 ex:id-46366 ;
+    ex:id-46461 ex:id-46322 .
+
+ex:id-46365 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46367 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46368 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46370 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46372 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46373 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46374 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46376 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46378 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46380 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46383 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46385 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46387 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46388 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46389 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46390 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46392 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46393 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46395 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46397 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46398 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46400 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46402 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46403 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46404 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46406 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46408 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46410 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46412 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46414 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46416 a owl:ObjectProperty ;
+    rdfs:label "aggregate customer data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46417 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46419 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46421 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46422 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46423 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46424 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46426 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46428 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46430 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46432 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46434 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46436 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46438 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46440 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46442 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46444 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46445 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46446 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46448 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46450 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46452 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46453 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46455 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46457 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46459 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46460 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46461 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46503 a archimate:Requirement,
+        owl:NamedIndividual ;
+    rdfs:label "Shared Back Office Application for All Products"@en ;
+    ex:id-47299 ex:id-46497 ;
+    ex:id-47307 ex:id-46501 ;
+    ex:id-47318 ex:id-46499 .
+
+ex:id-46535 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46536 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46537 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46538 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46539 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46540 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46541 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46542 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46543 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46544 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46545 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46546 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46548 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46550 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46551 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46553 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46554 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46555 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46556 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46558 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46560 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46562 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46564 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46566 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46567 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46568 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46570 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46572 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46573 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46575 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-46577 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46579 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46580 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46581 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46582 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46610 a owl:ObjectProperty ;
+    ex:id-46650 ex:id-46651 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46612 a owl:ObjectProperty ;
+    ex:id-46648 ex:id-46649 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46614 a owl:ObjectProperty ;
+    ex:id-46652 ex:id-46653 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46615 a owl:ObjectProperty ;
+    ex:id-46646 ex:id-46647 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46616 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46618 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46620 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46622 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46624 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46626 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46628 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46629 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46631 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46633 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46634 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46636 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46638 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46640 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46642 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46644 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46646 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46648 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46650 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46652 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46654 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46656 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46658 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46660 a owl:ObjectProperty ;
+    rdfs:label "documents"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46662 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46663 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46664 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46666 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46668 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46669 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46670 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46671 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46673 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46684 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Bank"@en .
+
+ex:id-46685 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Business Intelligence Team"@en .
+
+ex:id-46697 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Homeowner's Insurance Policy"@en ;
+    ex:id-46775 ex:id-46700 .
+
+ex:id-46699 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense Insurance Policy"@en ;
+    ex:id-46770 ex:id-46700 .
+
+ex:id-46701 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Travel Insurance Policy"@en ;
+    ex:id-46774 ex:id-46700 .
+
+ex:id-46704 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Auto Insurance Policy"@en ;
+    ex:id-46764 ex:id-46700 .
+
+ex:id-46709 a archimate:BusinessCollaboration,
+        owl:NamedIndividual ;
+    rdfs:label "Personal Assistance In Policy Customization"@en .
+
+ex:id-46710 a archimate:BusinessCollaboration,
+        owl:NamedIndividual ;
+    rdfs:label "Full-Service Support For High-Value Customers"@en .
+
+ex:id-46711 a archimate:BusinessRole,
+        owl:NamedIndividual ;
+    rdfs:label "Bank"@en ;
+    ex:id-46747 ex:id-46690 .
+
+ex:id-46712 a archimate:BusinessCollaboration,
+        owl:NamedIndividual ;
+    rdfs:label "Quick & Easy Self-Service"@en .
+
+ex:id-46715 a archimate:BusinessInterface,
+        owl:NamedIndividual ;
+    rdfs:label "Web"@en .
+
+ex:id-46716 a archimate:BusinessInterface,
+        owl:NamedIndividual ;
+    rdfs:label "Front Desk"@en .
+
+ex:id-46717 a archimate:BusinessInterface,
+        owl:NamedIndividual ;
+    rdfs:label "Telephone"@en .
+
+ex:id-46718 a archimate:BusinessInterface,
+        owl:NamedIndividual ;
+    rdfs:label "Postal Mail"@en .
+
+ex:id-46719 a archimate:BusinessInterface,
+        owl:NamedIndividual ;
+    rdfs:label "E-Mail"@en .
+
+ex:id-46721 a archimate:BusinessEvent,
+        owl:NamedIndividual ;
+    rdfs:label "Request For Insurance Received"@en ;
+    ex:id-46752 ex:id-46635 .
+
+ex:id-46722 a archimate:BusinessEvent,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Received"@en ;
+    ex:id-46742 ex:id-46641 .
+
+ex:id-46727 a owl:ObjectProperty ;
+    ex:id-46753 ex:id-46754 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46728 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46729 a owl:ObjectProperty ;
+    ex:id-46728 ex:id-46730 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46731 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46732 a owl:ObjectProperty ;
+    ex:id-46731 ex:id-46733 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46734 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46735 a owl:ObjectProperty ;
+    rdfs:label "financial risk"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46736 a owl:ObjectProperty ;
+    rdfs:label "money"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46737 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46739 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46740 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46741 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46742 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46743 a owl:ObjectProperty ;
+    rdfs:label "money"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46744 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46745 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46746 a owl:ObjectProperty ;
+    rdfs:label "policies"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46747 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46748 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46749 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46750 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46751 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46752 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46753 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46755 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46756 a owl:ObjectProperty ;
+    ex:id-46755 ex:id-46702 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46757 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46758 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46759 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46760 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46761 a owl:ObjectProperty ;
+    rdfs:label "money"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46762 a owl:ObjectProperty ;
+    rdfs:label "documents"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46763 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46764 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-46765 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46766 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46767 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46768 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46769 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46770 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-46771 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46772 a owl:ObjectProperty ;
+    rdfs:label "product info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46773 a owl:ObjectProperty ;
+    rdfs:label "premium payment status"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46774 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-46775 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-46776 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46777 a owl:ObjectProperty ;
+    rdfs:label "claims"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46778 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46779 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46780 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46781 a owl:ObjectProperty ;
+    rdfs:label "new contracts, premiums due"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46782 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46783 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46784 a owl:ObjectProperty ;
+    rdfs:label "customer info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46785 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46786 a owl:ObjectProperty ;
+    rdfs:label "premium info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46787 a owl:ObjectProperty ;
+    rdfs:label "premium info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46788 a owl:ObjectProperty ;
+    rdfs:label "financial obligations"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46789 a owl:ObjectProperty ;
+    rdfs:label "policies"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46790 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-46791 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46792 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46793 a owl:ObjectProperty ;
+    rdfs:label "money"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46794 a owl:ObjectProperty ;
+    rdfs:label "claim payments due"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46795 a owl:ObjectProperty ;
+    rdfs:label "product info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46796 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46798 a owl:ObjectProperty ;
+    rdfs:label "customer info"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46799 a owl:ObjectProperty ;
+    rdfs:label "requests"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46800 a owl:ObjectProperty ;
+    rdfs:label "claims"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46819 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46820 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46821 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46822 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46836 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46837 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46838 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46839 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46840 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46841 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46842 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46857 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46859 a owl:ObjectProperty ;
+    rdfs:label "document data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46861 a owl:ObjectProperty ;
+    rdfs:label "customer data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46863 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46865 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46867 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46869 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46870 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46872 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46874 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46875 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46876 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46878 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46880 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46882 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46926 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46927 a owl:ObjectProperty ;
+    rdfs:label "customer data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46928 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46929 a owl:ObjectProperty ;
+    rdfs:label "document data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46930 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46931 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46932 a owl:ObjectProperty ;
+    rdfs:label "CRM data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46933 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46934 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46935 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46936 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46937 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-46938 a owl:ObjectProperty ;
+    rdfs:label "document data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46939 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46940 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46941 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46942 a owl:ObjectProperty ;
+    archimate:accessType "Write"^^xsd:string ;
+    rdfs:subPropertyOf archimate:Access .
+
+ex:id-46943 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46945 a owl:ObjectProperty ;
+    rdfs:label "customer data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46946 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46947 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46948 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46949 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46950 a owl:ObjectProperty ;
+    rdfs:label "document data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46951 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46952 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46953 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46954 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46955 a owl:ObjectProperty ;
+    archimate:accessType "Write"^^xsd:string ;
+    rdfs:subPropertyOf archimate:Access .
+
+ex:id-46956 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46958 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46959 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-46960 a owl:ObjectProperty ;
+    ex:id-46959 ex:id-46898 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46961 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46962 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46963 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46964 a owl:ObjectProperty ;
+    rdfs:label "document data"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46965 a owl:ObjectProperty ;
+    rdfs:label "call report"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46966 a owl:ObjectProperty ;
+    archimate:accessType "Write"^^xsd:string ;
+    rdfs:subPropertyOf archimate:Access .
+
+ex:id-46968 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46969 a owl:ObjectProperty ;
+    rdfs:label "call report"@en ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46970 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46971 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46972 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-46973 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46974 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46975 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46976 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46977 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46978 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46979 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46980 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46981 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46982 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46983 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46984 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46985 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46986 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46987 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46988 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46989 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-46990 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46991 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46992 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-46993 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46994 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46995 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46996 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46997 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-46998 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-46999 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47000 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47001 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47002 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47003 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47004 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47005 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47006 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47007 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47008 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47009 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47010 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47011 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47012 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47023 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47024 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47025 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47026 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47027 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47028 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47029 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47030 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47031 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47032 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47050 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47051 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47053 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47055 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47057 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47100 a archimate:TechnologyService,
+        owl:NamedIndividual ;
+    rdfs:label "PaaS Services"@en ;
+    ex:id-47130 ex:id-47045 .
+
+ex:id-47105 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47106 a owl:ObjectProperty ;
+    ex:id-47105 ex:id-47075 ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47107 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47108 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47109 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47110 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47111 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47112 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47113 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47114 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47115 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47116 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47118 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47119 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47120 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47121 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47122 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47123 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47124 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47125 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47126 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47127 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47128 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47129 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47130 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47131 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47132 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47134 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47135 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47136 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47137 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47138 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47139 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47140 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47141 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47142 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47143 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47144 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47145 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47146 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47147 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47148 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47149 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47150 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47151 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47152 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47153 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47166 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47175 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "Smart Connected Devices"@en ;
+    ex:id-47183 ex:id-47045 .
+
+ex:id-47180 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47181 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-47183 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47184 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-47185 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47186 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-47187 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Flow .
+
+ex:id-47188 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Assignment .
+
+ex:id-47189 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Specialization .
+
+ex:id-47190 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47202 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Market Growth"@en .
+
+ex:id-47203 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Market Share"@en .
+
+ex:id-47204 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Education"@en .
+
+ex:id-47205 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Perceived Value"@en .
+
+ex:id-47207 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Revenue Impact"@en .
+
+ex:id-47212 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Impact"@en .
+
+ex:id-47213 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Risk"@en .
+
+ex:id-47214 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Low Interest Rates Adversely Affect Return on Assets"@en .
+
+ex:id-47215 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Privacy Regulation (GDPR)"@en .
+
+ex:id-47216 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Low Trust in Financial Institutions"@en .
+
+ex:id-47217 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Automobile Insurance For Businesses"@en .
+
+ex:id-47218 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Blockchain May Disintermediate Insurance Market"@en .
+
+ex:id-47219 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Income"@en .
+
+ex:id-47220 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Efficiency"@en ;
+    ex:id-47280 ex:id-47232 ;
+    ex:id-47301 ex:id-47206 ;
+    ex:id-47313 ex:id-47211 ;
+    ex:id-47315 ex:id-47209 .
+
+ex:id-47222 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Other"@en .
+
+ex:id-47223 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Opportunities in Clean-Tech Investments"@en .
+
+ex:id-47224 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Economies of Scale Favor Largest Industry Players"@en .
+
+ex:id-47225 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Rent"@en .
+
+ex:id-47226 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Investments in Carbon-Based Economy Under Pressure"@en .
+
+ex:id-47228 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Automobile Insurance For Individuals"@en .
+
+ex:id-47229 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Fintechs More Savvy in Employing Digital Innovations"@en .
+
+ex:id-47230 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Salaries"@en .
+
+ex:id-47231 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Claims"@en .
+
+ex:id-47233 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Thinking globally"@en .
+
+ex:id-47234 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Financial Regulation (Solvency II, PSD II, Basel III)"@en .
+
+ex:id-47236 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Data Quality"@en .
+
+ex:id-47237 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Unclear Effects of Brexit on Financial Markets"@en .
+
+ex:id-47238 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Cognitive Systems"@en ;
+    ex:id-47278 ex:id-47227 ;
+    ex:id-47309 ex:id-47221 .
+
+ex:id-47240 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Better Digital Skills of Front-Office Personnel"@en .
+
+ex:id-47242 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Return on Assets"@en .
+
+ex:id-47243 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Lack of A Good Digital Experience"@en .
+
+ex:id-47244 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Customers Defecting to Competitors with Superior Digital Experiences"@en ;
+    ex:id-47320 ex:id-47208 ;
+    ex:id-47325 ex:id-47250 .
+
+ex:id-47245 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Customers Defecting to Competitors with Lower Insurance Premiums"@en ;
+    ex:id-47334 ex:id-47250 .
+
+ex:id-47246 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Inefficiencies in Internal Operations"@en ;
+    ex:id-47333 ex:id-47257 .
+
+ex:id-47251 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Affluent Millennials Looking For Convenience in Insurances"@en .
+
+ex:id-47253 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Premium Contributions"@en .
+
+ex:id-47254 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Marketing"@en .
+
+ex:id-47255 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Broad Product Coverage"@en ;
+    ex:id-47338 ex:id-46557 .
+
+ex:id-47256 a archimate:Assessment,
+        owl:NamedIndividual ;
+    rdfs:label "Strong Brand Position"@en ;
+    ex:id-47331 ex:id-46565 .
+
+ex:id-47260 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Automobile Repair Shops"@en .
+
+ex:id-47262 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Intermediary"@en ;
+    ex:id-47293 ex:id-47263 ;
+    ex:id-47312 ex:id-47257 .
+
+ex:id-47264 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Advertising Outlets"@en .
+
+ex:id-47265 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Businesses Under 500 Employees"@en .
+
+ex:id-47266 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Car Rental Companies"@en .
+
+ex:id-47267 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Businesses Under 50 Employees"@en .
+
+ex:id-47268 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Single-Employee Businesses"@en .
+
+ex:id-47269 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Banks"@en .
+
+ex:id-47270 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Intermediaries"@en .
+
+ex:id-47271 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Households"@en .
+
+ex:id-47273 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47274 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47275 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47276 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47277 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47278 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47279 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47280 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47281 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47282 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47283 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47284 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47285 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47286 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47287 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47288 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47289 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47290 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47291 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47292 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47293 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47294 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47295 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47296 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47297 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47298 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47299 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47300 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47301 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47302 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47303 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47304 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47305 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47306 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47307 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47308 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47309 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47310 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47311 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47312 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47313 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47314 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47315 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47316 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47317 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47318 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47319 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47320 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47321 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47322 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47323 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47324 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47325 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47326 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47327 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47328 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47329 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47330 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47331 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47332 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47333 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47334 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47335 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47336 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47337 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47338 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Association .
+
+ex:id-47339 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47340 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Influence .
+
+ex:id-47347 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Project: Back Office System Integration"@en ;
+    ex:id-47353 ex:id-47354 ;
+    ex:id-47355 ex:id-47356 ;
+    ex:id-47357 ex:id-47358 ;
+    ex:id-47359 ex:id-46339 ;
+    ex:id-47360 ex:id-46327 ;
+    ex:id-47361 ex:id-46302 ;
+    ex:id-47362 ex:id-46338 .
+
+ex:id-47353 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47355 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47357 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Composition .
+
+ex:id-47359 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47360 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47361 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47362 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47378 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47380 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47382 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47383 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47384 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47385 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47386 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47387 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47388 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47389 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47392 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Project: CRM System Integration"@en ;
+    ex:id-47429 ex:id-46339 ;
+    ex:id-47448 ex:id-46302 ;
+    ex:id-47455 ex:id-46310 ;
+    ex:id-47483 ex:id-46338 ;
+    ex:id-47488 ex:id-46864 ;
+    ex:id-47489 ex:id-46862 .
+
+ex:id-47393 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Project: Data Warehousing and BI"@en ;
+    ex:id-47432 ex:id-46339 ;
+    ex:id-47486 ex:id-46338 ;
+    ex:id-47487 ex:id-46299 ;
+    ex:id-47490 ex:id-47045 .
+
+ex:id-47396 a archimate:Plateau,
+        owl:NamedIndividual ;
+    rdfs:label "Baseline"@en ;
+    ex:id-47401 ex:id-46409 ;
+    ex:id-47407 ex:id-46309 ;
+    ex:id-47409 ex:id-46307 ;
+    ex:id-47411 ex:id-46356 ;
+    ex:id-47414 ex:id-46361 ;
+    ex:id-47415 ex:id-46435 ;
+    ex:id-47420 ex:id-46355 ;
+    ex:id-47422 ex:id-46864 ;
+    ex:id-47427 ex:id-46357 ;
+    ex:id-47435 ex:id-46325 ;
+    ex:id-47436 ex:id-46915 ;
+    ex:id-47439 ex:id-46379 ;
+    ex:id-47441 ex:id-46449 ;
+    ex:id-47442 ex:id-46429 ;
+    ex:id-47443 ex:id-46358 ;
+    ex:id-47446 ex:id-46359 ;
+    ex:id-47447 ex:id-46427 ;
+    ex:id-47451 ex:id-46360 ;
+    ex:id-47452 ex:id-46384 ;
+    ex:id-47453 ex:id-46913 ;
+    ex:id-47456 ex:id-46411 ;
+    ex:id-47458 ex:id-46914 ;
+    ex:id-47461 ex:id-46918 .
+
+ex:id-47400 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-47401 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47402 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47403 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-47404 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47405 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47406 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47407 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-47408 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-47409 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47410 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47411 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47412 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47413 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47414 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47415 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47417 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47418 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47419 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47420 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47421 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47422 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47423 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47426 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47427 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47429 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47430 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47431 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47432 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47433 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47434 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47435 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47436 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47437 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47438 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47439 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47440 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47441 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47442 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47443 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47444 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47445 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47446 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47447 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47448 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47449 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47450 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47451 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47452 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47453 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47454 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47455 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47456 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47458 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47459 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47461 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47462 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47463 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47464 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47465 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47466 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47467 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47468 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47469 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47470 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47471 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47472 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47473 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47474 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Triggering .
+
+ex:id-47475 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47476 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47477 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47478 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47479 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47480 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47481 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47483 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47484 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47485 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47486 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47487 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47488 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47489 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47490 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Realization .
+
+ex:id-47503 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Back Office"@en ;
+    ex:id-47520 ex:id-46918 ;
+    ex:id-47524 ex:id-46304 ;
+    ex:id-47533 ex:id-46913 ;
+    ex:id-47537 ex:id-46915 ;
+    ex:id-47540 ex:id-46299 ;
+    ex:id-47545 ex:id-46914 .
+
+ex:id-47508 a archimate:Location,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away Headquarters"@en ;
+    ex:id-47526 ex:id-47506 ;
+    ex:id-47528 ex:id-47045 ;
+    ex:id-47530 ex:id-47501 ;
+    ex:id-47532 ex:id-47052 ;
+    ex:id-47551 ex:id-46596 ;
+    ex:id-47555 ex:id-46639 .
+
+ex:id-47509 a archimate:Location,
+        owl:NamedIndividual ;
+    rdfs:label "External"@en ;
+    ex:id-47518 ex:id-47169 ;
+    ex:id-47521 ex:id-47174 ;
+    ex:id-47538 ex:id-47178 ;
+    ex:id-47543 ex:id-47172 ;
+    ex:id-47544 ex:id-47173 ;
+    ex:id-47547 ex:id-47171 ;
+    ex:id-47550 ex:id-47117 .
+
+ex:id-47510 a archimate:Location,
+        owl:NamedIndividual ;
+    rdfs:label "PRO-FIT Headquarters"@en ;
+    ex:id-47516 ex:id-47097 ;
+    ex:id-47529 ex:id-47504 ;
+    ex:id-47534 ex:id-47505 ;
+    ex:id-47552 ex:id-46672 ;
+    ex:id-47554 ex:id-46621 .
+
+ex:id-47511 a archimate:Location,
+        owl:NamedIndividual ;
+    rdfs:label "LegallyYours Headquarters"@en ;
+    ex:id-47515 ex:id-47502 ;
+    ex:id-47553 ex:id-46619 .
+
+ex:id-47513 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47514 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47515 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47516 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47517 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47518 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47519 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47520 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47521 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47522 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47523 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47524 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47525 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47526 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47527 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47528 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47529 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47530 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47531 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47532 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47533 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47534 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47535 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47536 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47537 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47538 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47539 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47540 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47541 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47542 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47543 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47544 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47545 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47546 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47547 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47548 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47549 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Serving .
+
+ex:id-47550 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47551 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47552 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47553 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47554 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47555 a owl:ObjectProperty ;
+    rdfs:subPropertyOf archimate:Aggregation .
+
+ex:id-47786 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Customer"@en .
+
+ex:id-47787 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Learning and Growth"@en .
+
+ex:id-47788 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Internal"@en .
+
+ex:id-47789 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Financial"@en .
+
+ex:id-47822 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Legal"@en .
+
+ex:id-47823 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Political"@en .
+
+ex:id-47824 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Environmental"@en .
+
+ex:id-47825 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Economic"@en .
+
+ex:id-47826 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Technological"@en .
+
+ex:id-47827 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Social"@en .
+
+ex:id-47862 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Substitutes"@en .
+
+ex:id-47863 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Entrants"@en .
+
+ex:id-47864 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Suppliers"@en .
+
+ex:id-47865 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Buyers"@en .
+
+ex:id-47866 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Rivalry"@en .
+
+ex:id-47884 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Strengths"@en .
+
+ex:id-47885 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Weaknesses"@en .
+
+ex:id-47910 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "SO Strategies"@en .
+
+ex:id-47911 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "WO Strategies"@en .
+
+ex:id-47912 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "ST Strategies"@en .
+
+ex:id-47913 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Threats"@en .
+
+ex:id-47914 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "WT Strategies"@en .
+
+ex:id-47915 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Opportunities"@en .
+
+ex:id-47966 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Relations"@en .
+
+ex:id-47967 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Revenues"@en .
+
+ex:id-47968 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Partners"@en .
+
+ex:id-47969 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Key Activities"@en .
+
+ex:id-47970 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Segments"@en .
+
+ex:id-47971 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Value Propositions"@en .
+
+ex:id-47972 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Key Resourcss"@en .
+
+ex:id-47973 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Channels"@en .
+
+ex:id-47974 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Costs"@en .
+
+archimate:ApplicationCollaboration rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:InternalActiveStructureElement .
+
+archimate:ApplicationEvent rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:Event .
+
+archimate:ApplicationInteraction rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:ApplicationInterface rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:ExternalActiveStructureElement .
+
+archimate:BusinessInteraction rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:Constraint rdfs:subClassOf archimate:MotivationLayer,
+        archimate:Requirement .
+
+archimate:Contract rdfs:subClassOf archimate:BusinessLayer,
+        archimate:BusinessObject .
+
+archimate:CourseOfAction rdfs:subClassOf archimate:BehaviorElement,
+        archimate:StrategyLayer .
+
+archimate:Gap rdfs:subClassOf archimate:Element,
+        archimate:ImplementationMigrationLayer .
+
+archimate:ImplementationEvent rdfs:subClassOf archimate:Event,
+        archimate:ImplementationMigrationLayer .
+
+archimate:Material rdfs:subClassOf archimate:PassiveStructureElement,
+        archimate:PhysicalLayer .
+
+archimate:Path rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:Representation rdfs:subClassOf archimate:BusinessLayer,
+        archimate:PassiveStructureElement .
+
+archimate:Resource rdfs:subClassOf archimate:StrategyLayer,
+        archimate:StructureElement .
+
+archimate:TechnologyCollaboration rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:TechnologyEvent rdfs:subClassOf archimate:Event,
+        archimate:TechnologyLayer .
+
+archimate:TechnologyInteraction rdfs:subClassOf archimate:InternalBehaviorElement,
+        archimate:TechnologyLayer .
+
+archimate:TechnologyProcess rdfs:subClassOf archimate:InternalBehaviorElement,
+        archimate:TechnologyLayer .
+
+archimate:accessType a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf archimate:Property .
+
+ex:id-46293 a archimate:OrJunction,
+        owl:NamedIndividual ;
+    rdfs:label "OR junction"@en ;
+    ex:id-46292 ex:id-46294 ;
+    ex:id-46295 ex:id-46296 .
+
+ex:id-46296 a archimate:BusinessEvent,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Rejected"@en .
+
+ex:id-46298 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction"@en ;
+    ex:id-46297 ex:id-46299 ;
+    ex:id-46303 ex:id-46304 .
+
+ex:id-46309 a archimate:OrJunction,
+        owl:NamedIndividual ;
+    ex:id-46308 ex:id-46310 ;
+    ex:id-46326 ex:id-46327 .
+
+ex:id-46371 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Performance Management"@en .
+
+ex:id-46375 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Investment Performance Management"@en .
+
+ex:id-46377 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Process Management"@en .
+
+ex:id-46386 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Investment Strategy Management"@en .
+
+ex:id-46391 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Cash Flow Management"@en .
+
+ex:id-46394 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Product Definition"@en ;
+    ex:id-46541 ex:id-46366 .
+
+ex:id-46396 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Facility Management"@en .
+
+ex:id-46399 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Asset Inventory Maintenance"@en .
+
+ex:id-46401 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Campaign Management"@en ;
+    ex:id-46536 ex:id-46322 .
+
+ex:id-46405 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Sales Execution"@en ;
+    ex:id-46582 ex:id-46322 .
+
+ex:id-46407 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Money Market Management"@en .
+
+ex:id-46413 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Banking Management"@en .
+
+ex:id-46415 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Risk & Compliance Management"@en .
+
+ex:id-46418 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Investment Portfolio Management"@en .
+
+ex:id-46420 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Fiscal & Accounting Management"@en .
+
+ex:id-46431 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Organizational Development"@en .
+
+ex:id-46433 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Enterprise Architecture"@en .
+
+ex:id-46441 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Market Development"@en ;
+    ex:id-46543 ex:id-46322 .
+
+ex:id-46443 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Product Engineering"@en ;
+    ex:id-46545 ex:id-46366 .
+
+ex:id-46447 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Office Management"@en .
+
+ex:id-46451 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Accounts Management"@en .
+
+ex:id-46454 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Strategic Management"@en .
+
+ex:id-46456 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "HR Management"@en .
+
+ex:id-46458 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Distribution Channel Management"@en ;
+    ex:id-46544 ex:id-46322 .
+
+ex:id-46512 a archimate:Requirement,
+        owl:NamedIndividual ;
+    rdfs:label "CRM Data Should Be Maintained Centrally"@en ;
+    ex:id-47290 ex:id-46499 ;
+    ex:id-47300 ex:id-46517 .
+
+ex:id-46517 a archimate:Principle,
+        owl:NamedIndividual ;
+    rdfs:label "Single System of Record For Each Data Element"@en ;
+    ex:id-47273 ex:id-47201 ;
+    ex:id-47274 ex:id-47252 ;
+    ex:id-47297 ex:id-47252 .
+
+ex:id-46547 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "5% Year-Over-Year Market Share Growth"@en .
+
+ex:id-46594 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "ArchiSurance"@en ;
+    ex:id-46610 ex:id-46611 ;
+    ex:id-46612 ex:id-46613 ;
+    ex:id-46614 ex:id-46613 ;
+    ex:id-46615 ex:id-46611 ;
+    ex:id-46628 ex:id-46595 ;
+    ex:id-46668 ex:id-46619 ;
+    ex:id-46669 ex:id-46621 ;
+    ex:id-46670 ex:id-46639 ;
+    ex:id-46671 ex:id-46672 ;
+    ex:id-46673 ex:id-46596 .
+
+ex:id-46607 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Issue New Policy"@en ;
+    ex:id-46624 ex:id-46625 ;
+    ex:id-46634 ex:id-46635 ;
+    ex:id-46644 ex:id-46645 ;
+    ex:id-46654 ex:id-46655 ;
+    ex:id-46663 ex:id-46329 .
+
+ex:id-46623 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Marketing & Sales"@en ;
+    ex:id-46820 ex:id-46691 ;
+    ex:id-46821 ex:id-46692 .
+
+ex:id-46632 a archimate:BusinessService,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Submission Service"@en ;
+    ex:id-46771 ex:id-46613 .
+
+ex:id-46645 a archimate:BusinessService,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Issuance Service"@en ;
+    ex:id-46751 ex:id-46613 .
+
+ex:id-46647 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Commission"@en .
+
+ex:id-46649 a archimate:Product,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance"@en .
+
+ex:id-46651 a archimate:Meaning,
+        owl:NamedIndividual ;
+    rdfs:label "Product Information"@en .
+
+ex:id-46653 a archimate:Meaning,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Policy"@en .
+
+ex:id-46657 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Service"@en ;
+    ex:id-46819 ex:id-46694 ;
+    ex:id-46822 ex:id-46667 .
+
+ex:id-46698 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Record"@en ;
+    ex:id-46790 ex:id-46703 .
+
+ex:id-46702 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Aggregate Customer Information"@en .
+
+ex:id-46703 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance File"@en ;
+    ex:id-46760 ex:id-46706 ;
+    ex:id-46792 ex:id-46705 ;
+    ex:id-46796 ex:id-46700 .
+
+ex:id-46705 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Request"@en ;
+    ex:id-46780 ex:id-46700 .
+
+ex:id-46725 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Calculate Insurance Premium"@en ;
+    ex:id-46741 ex:id-46630 ;
+    ex:id-46756 ex:id-46617 ;
+    ex:id-46768 ex:id-46329 .
+
+ex:id-46730 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Premium"@en .
+
+ex:id-46733 a archimate:Meaning,
+        owl:NamedIndividual ;
+    rdfs:label "Product Offering"@en .
+
+ex:id-46754 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Premiums"@en .
+
+ex:id-46868 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Financial Services"@en ;
+    ex:id-46976 ex:id-46497 ;
+    ex:id-47004 ex:id-46608 .
+
+ex:id-46879 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Administration Services"@en ;
+    ex:id-46951 ex:id-46501 ;
+    ex:id-46983 ex:id-46608 ;
+    ex:id-46985 ex:id-46607 .
+
+ex:id-46881 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "BRIMS"@en ;
+    ex:id-47027 ex:id-46873 ;
+    ex:id-47029 ex:id-46871 ;
+    ex:id-47030 ex:id-46877 ;
+    ex:id-47032 ex:id-46866 .
+
+ex:id-46894 a archimate:ApplicationFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Data Management"@en ;
+    ex:id-46955 ex:id-46899 ;
+    ex:id-46966 ex:id-46901 .
+
+ex:id-46895 a archimate:ApplicationFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Data Access"@en ;
+    ex:id-46942 ex:id-46900 .
+
+ex:id-46898 a archimate:DataObject,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Profile Data"@en .
+
+ex:id-46899 a archimate:DataObject,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Data"@en ;
+    ex:id-46947 ex:id-46706 .
+
+ex:id-46900 a archimate:DataObject,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Data"@en ;
+    ex:id-46954 ex:id-46698 .
+
+ex:id-46901 a archimate:DataObject,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Data"@en ;
+    ex:id-46946 ex:id-46700 .
+
+ex:id-46903 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "CRM Data Access"@en ;
+    ex:id-46936 ex:id-46304 ;
+    ex:id-46981 ex:id-46512 ;
+    ex:id-47001 ex:id-46608 .
+
+ex:id-46904 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Administration"@en ;
+    ex:id-46971 ex:id-46635 ;
+    ex:id-47009 ex:id-46641 .
+
+ex:id-46905 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Creation"@en ;
+    ex:id-46943 ex:id-46625 ;
+    ex:id-46980 ex:id-46635 .
+
+ex:id-46906 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Payment"@en ;
+    ex:id-46963 ex:id-46294 .
+
+ex:id-46907 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Printing"@en ;
+    ex:id-46956 ex:id-46294 ;
+    ex:id-47002 ex:id-46659 .
+
+ex:id-46908 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Policy Registration"@en ;
+    ex:id-47012 ex:id-46655 .
+
+ex:id-46909 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Claims Administration"@en ;
+    ex:id-46934 ex:id-46627 ;
+    ex:id-46975 ex:id-46659 ;
+    ex:id-46986 ex:id-46643 .
+
+ex:id-46910 a archimate:ApplicationService,
+        owl:NamedIndividual ;
+    rdfs:label "Scanning"@en ;
+    ex:id-46982 ex:id-46641 .
+
+ex:id-46923 a archimate:ApplicationProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Process Data"@en ;
+    ex:id-46991 ex:id-46922 ;
+    ex:id-46992 ex:id-46924 ;
+    ex:id-47000 ex:id-46921 .
+
+ex:id-47054 a archimate:TechnologyInterface,
+        owl:NamedIndividual ;
+    rdfs:label "REST API"@en ;
+    ex:id-47118 ex:id-47101 ;
+    ex:id-47128 ex:id-47102 ;
+    ex:id-47135 ex:id-47133 ;
+    ex:id-47152 ex:id-47103 .
+
+ex:id-47056 a archimate:SystemSoftware,
+        owl:NamedIndividual ;
+    rdfs:label "Container"@en ;
+    ex:id-47166 ex:id-47058 .
+
+ex:id-47069 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away Policy Administration implementation"@en .
+
+ex:id-47071 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Call Center Implementation"@en .
+
+ex:id-47072 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away Financial Application implementation"@en .
+
+ex:id-47073 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Web Portal Implementation"@en .
+
+ex:id-47074 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "CRM System Implementation"@en ;
+    ex:id-47147 ex:id-46862 .
+
+ex:id-47075 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Real-Time Customer Data"@en .
+
+ex:id-47076 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Auto Insurance Implementation"@en .
+
+ex:id-47077 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense Back Office implementation"@en .
+
+ex:id-47078 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense CRM System"@en .
+
+ex:id-47084 a archimate:TechnologyFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Data Generation"@en ;
+    ex:id-47153 ex:id-47058 .
+
+ex:id-47088 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "FO General-Purpose Server"@en ;
+    ex:id-47107 ex:id-47074 ;
+    ex:id-47125 ex:id-47078 ;
+    ex:id-47136 ex:id-46917 ;
+    ex:id-47142 ex:id-46864 ;
+    ex:id-47144 ex:id-47071 ;
+    ex:id-47145 ex:id-46862 ;
+    ex:id-47150 ex:id-47052 .
+
+ex:id-47090 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "FO Web Hosting Server"@en ;
+    ex:id-47123 ex:id-47052 ;
+    ex:id-47131 ex:id-47073 ;
+    ex:id-47151 ex:id-46916 .
+
+ex:id-47169 a archimate:DistributionNetwork,
+        owl:NamedIndividual ;
+    rdfs:label "Energy Network"@en ;
+    ex:id-47185 ex:id-47174 .
+
+ex:id-47171 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "Fitness Tracker"@en ;
+    ex:id-47189 ex:id-47117 .
+
+ex:id-47173 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "Car Black Box"@en ;
+    ex:id-47184 ex:id-47117 .
+
+ex:id-47178 a archimate:Facility,
+        owl:NamedIndividual ;
+    rdfs:label "Smart Home"@en ;
+    ex:id-47180 ex:id-47174 ;
+    ex:id-47190 ex:id-47172 .
+
+ex:id-47206 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Uniformity"@en .
+
+ex:id-47209 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Cost"@en .
+
+ex:id-47210 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Sales Target"@en ;
+    rdfs:comment "Noch etwas zu übersetzen. Eine andere Zeile. Mit einem Aufzählungszeichen."@en .
+
+ex:id-47211 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Productivity"@en .
+
+ex:id-47221 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Conversational Agents Prevailing"@en .
+
+ex:id-47227 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Human Interaction Prevailing"@en .
+
+ex:id-47232 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Quality"@en .
+
+ex:id-47235 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Product Portfolio"@en .
+
+ex:id-47239 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Stakeholder Satisfaction"@en ;
+    ex:id-47295 ex:id-47250 .
+
+ex:id-47241 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Price"@en .
+
+ex:id-47259 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Board"@en ;
+    ex:id-47279 ex:id-47210 ;
+    ex:id-47283 ex:id-47208 ;
+    ex:id-47285 ex:id-47257 ;
+    ex:id-47294 ex:id-47261 ;
+    ex:id-47298 ex:id-47239 ;
+    ex:id-47302 ex:id-47250 ;
+    ex:id-47306 ex:id-46563 .
+
+ex:id-47261 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Employee"@en ;
+    ex:id-47276 ex:id-47263 ;
+    ex:id-47286 ex:id-47257 ;
+    ex:id-47303 ex:id-47259 ;
+    ex:id-47321 ex:id-46563 .
+
+ex:id-47354 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Work package: Software Modification"@en ;
+    ex:id-47378 ex:id-47379 ;
+    ex:id-47384 ex:id-46304 .
+
+ex:id-47356 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Work package: Hardware Upgrade"@en ;
+    ex:id-47380 ex:id-47381 ;
+    ex:id-47383 ex:id-47087 ;
+    ex:id-47385 ex:id-47091 .
+
+ex:id-47358 a archimate:WorkPackage,
+        owl:NamedIndividual ;
+    rdfs:label "Work package: Phasing Out Legacy"@en ;
+    ex:id-47382 ex:id-46914 ;
+    ex:id-47386 ex:id-47092 ;
+    ex:id-47387 ex:id-46915 ;
+    ex:id-47388 ex:id-47089 ;
+    ex:id-47389 ex:id-46913 .
+
+ex:id-47379 a archimate:Deliverable,
+        owl:NamedIndividual ;
+    rdfs:label "Integrated Back-Office Suite"@en .
+
+ex:id-47381 a archimate:Deliverable,
+        owl:NamedIndividual ;
+    rdfs:label "New Hardware Configuration"@en .
+
+ex:id-47501 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Front Office"@en ;
+    ex:id-47513 ex:id-46916 ;
+    ex:id-47514 ex:id-46917 ;
+    ex:id-47522 ex:id-46864 ;
+    ex:id-47527 ex:id-47088 ;
+    ex:id-47531 ex:id-47090 ;
+    ex:id-47546 ex:id-46862 .
+
+ex:id-47502 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense Back Office"@en ;
+    ex:id-47535 ex:id-47089 .
+
+ex:id-47504 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Shared Service Center"@en ;
+    ex:id-47517 ex:id-46860 ;
+    ex:id-47536 ex:id-47093 ;
+    ex:id-47548 ex:id-47091 .
+
+ex:id-47505 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Auto Back Office"@en ;
+    ex:id-47541 ex:id-47092 .
+
+ex:id-47506 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Homeowner's & Travel Back Office"@en ;
+    ex:id-47525 ex:id-47094 ;
+    ex:id-47542 ex:id-47087 .
+
+archimate:BusinessRole a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalActiveStructureElement .
+
+archimate:DistributionNetwork a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:PhysicalLayer .
+
+archimate:Facility a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:PhysicalLayer .
+
+archimate:Node a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:OtherRelationship a owl:ObjectProperty ;
+    rdfs:label "Other Relationship"@en ;
+    rdfs:comment "Catch-all category for ArchiMate relationships that are neither structural, dependency, nor dynamic."@en ;
+    rdfs:subPropertyOf archimate:Relationship .
+
+archimate:Product a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:CompositeElement .
+
+archimate:Property a owl:DatatypeProperty ;
+    rdfs:label "Property"@en ;
+    rdfs:comment """Shared super-property for all ArchiMate property definitions.
+Each concrete property predicate (e.g. ex:name, ex:age) is declared
+rdfs:subPropertyOf archimate:Property, enabling generic querying
+across all property values.""" .
+
+archimate:SystemSoftware a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:TechnologyInterface a owl:Class ;
+    rdfs:subClassOf archimate:ExternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+ex:id-46301 a archimate:OrJunction,
+        owl:NamedIndividual ;
+    ex:id-46300 ex:id-46302 .
+
+ex:id-46306 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (3)"@en ;
+    ex:id-46305 ex:id-46307 .
+
+ex:id-46310 a archimate:Plateau,
+        owl:NamedIndividual ;
+    rdfs:label "Transition A: One Enterprise-Wide CRM System with Baseline Back-Office Systems"@en ;
+    ex:id-47403 ex:id-46301 ;
+    ex:id-47406 ex:id-46435 ;
+    ex:id-47423 ex:id-46361 ;
+    ex:id-47438 ex:id-46917 ;
+    ex:id-47444 ex:id-46411 ;
+    ex:id-47459 ex:id-46449 .
+
+ex:id-46312 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (5)"@en .
+
+ex:id-46321 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (10)"@en ;
+    ex:id-46320 ex:id-46322 .
+
+ex:id-46327 a archimate:Plateau,
+        owl:NamedIndividual ;
+    rdfs:label "Transition B: Standard Back-Office Suite with Baseline CRM Systems"@en ;
+    ex:id-47408 ex:id-46301 ;
+    ex:id-47412 ex:id-46429 ;
+    ex:id-47419 ex:id-46379 ;
+    ex:id-47434 ex:id-46325 ;
+    ex:id-47445 ex:id-46409 ;
+    ex:id-47450 ex:id-46427 .
+
+ex:id-46358 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Business Support"@en ;
+    ex:id-46376 ex:id-46377 ;
+    ex:id-46395 ex:id-46396 ;
+    ex:id-46430 ex:id-46431 ;
+    ex:id-46446 ex:id-46447 ;
+    ex:id-46455 ex:id-46456 .
+
+ex:id-46359 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Business Management"@en ;
+    ex:id-46370 ex:id-46371 ;
+    ex:id-46414 ex:id-46415 ;
+    ex:id-46419 ex:id-46420 ;
+    ex:id-46432 ex:id-46433 ;
+    ex:id-46453 ex:id-46454 .
+
+ex:id-46425 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Digital Channel Management"@en .
+
+ex:id-46437 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Data Analysis"@en .
+
+ex:id-46439 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Data Acquisition"@en .
+
+ex:id-46497 a archimate:Requirement,
+        owl:NamedIndividual ;
+    rdfs:label "Support for Financial Transactions"@en .
+
+ex:id-46499 a archimate:Principle,
+        owl:NamedIndividual ;
+    rdfs:label "Common Use of Applications"@en ;
+    ex:id-47275 ex:id-47252 ;
+    ex:id-47289 ex:id-47252 ;
+    ex:id-47291 ex:id-47249 .
+
+ex:id-46501 a archimate:Requirement,
+        owl:NamedIndividual ;
+    rdfs:label "Support for Policy Administration"@en .
+
+ex:id-46549 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Smart Claim Assessment Based on Big Data"@en .
+
+ex:id-46552 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Well-Targeted Products For The Millennials Market Segment"@en .
+
+ex:id-46557 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "Attractive Insurance Offering"@en ;
+    ex:id-47304 ex:id-47263 ;
+    ex:id-47326 ex:id-46565 .
+
+ex:id-46559 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "High-Quality Insurance Product with Attractive Price"@en .
+
+ex:id-46561 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "High Customer Intimacy Based on Detailed Customer Data"@en .
+
+ex:id-46571 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Competitive Premium Setting"@en ;
+    ex:id-47305 ex:id-46578 .
+
+ex:id-46576 a archimate:Value,
+        owl:NamedIndividual ;
+    rdfs:label "Fast and Easy Handling of New Policies and Insurance Claims"@en .
+
+ex:id-46578 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Increase in Market Share"@en ;
+    ex:id-47292 ex:id-47247 .
+
+ex:id-46595 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Back Office"@en ;
+    ex:id-46616 ex:id-46617 ;
+    ex:id-46618 ex:id-46619 ;
+    ex:id-46620 ex:id-46621 ;
+    ex:id-46629 ex:id-46630 ;
+    ex:id-46636 ex:id-46637 ;
+    ex:id-46638 ex:id-46639 ;
+    ex:id-46660 ex:id-46661 ;
+    ex:id-46664 ex:id-46665 ;
+    ex:id-46666 ex:id-46667 .
+
+ex:id-46596 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Front Office"@en ;
+    ex:id-46622 ex:id-46623 ;
+    ex:id-46656 ex:id-46657 .
+
+ex:id-46672 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Shared Service Center"@en ;
+    ex:id-46739 ex:id-46661 .
+
+ex:id-46690 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Banking"@en ;
+    ex:id-46736 ex:id-46665 .
+
+ex:id-46691 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Marketing"@en ;
+    ex:id-46772 ex:id-46692 ;
+    ex:id-46778 ex:id-46357 ;
+    ex:id-46795 ex:id-46693 .
+
+ex:id-46693 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Information Provisioning"@en ;
+    ex:id-46784 ex:id-46694 .
+
+ex:id-46877 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "P-CONFIG"@en ;
+    ex:id-47025 ex:id-46873 ;
+    ex:id-47026 ex:id-46871 ;
+    ex:id-47028 ex:id-46866 .
+
+ex:id-46919 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "MyArchiSurance Mobile App"@en ;
+    ex:id-46994 ex:id-46689 ;
+    ex:id-46997 ex:id-46694 .
+
+ex:id-46921 a archimate:ApplicationProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Aggregate Data"@en ;
+    ex:id-46937 ex:id-46924 .
+
+ex:id-46922 a archimate:ApplicationProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Report Data"@en ;
+    ex:id-46960 ex:id-46725 .
+
+ex:id-46924 a archimate:ApplicationProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Analyze Data"@en ;
+    ex:id-46926 ex:id-46922 .
+
+ex:id-47070 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "Back Office Suite Implementation"@en ;
+    ex:id-47143 ex:id-46304 .
+
+ex:id-47079 a archimate:Artifact,
+        owl:NamedIndividual ;
+    rdfs:label "DMS Implementation"@en .
+
+ex:id-47092 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "Auto General-Purpose Server"@en ;
+    ex:id-47114 ex:id-47097 ;
+    ex:id-47139 ex:id-46914 ;
+    ex:id-47148 ex:id-47076 .
+
+ex:id-47093 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "Document Management Server"@en ;
+    ex:id-47110 ex:id-47079 ;
+    ex:id-47115 ex:id-46860 .
+
+ex:id-47094 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "Document Management Back-Up Server"@en ;
+    ex:id-47124 ex:id-46860 ;
+    ex:id-47126 ex:id-47079 .
+
+ex:id-47097 a archimate:CommunicationNetwork,
+        owl:NamedIndividual ;
+    rdfs:label "PRO-FIT LAN"@en ;
+    ex:id-47111 ex:id-47093 ;
+    ex:id-47146 ex:id-47098 ;
+    ex:id-47149 ex:id-47091 .
+
+ex:id-47098 a archimate:CommunicationNetwork,
+        owl:NamedIndividual ;
+    rdfs:label "ArchiSurance WAN"@en ;
+    ex:id-47108 ex:id-47089 .
+
+ex:id-47101 a archimate:TechnologyService,
+        owl:NamedIndividual ;
+    rdfs:label "Device Registration Service"@en ;
+    ex:id-47120 ex:id-47117 .
+
+ex:id-47102 a archimate:TechnologyService,
+        owl:NamedIndividual ;
+    rdfs:label "Device Operation Service"@en .
+
+ex:id-47103 a archimate:TechnologyService,
+        owl:NamedIndividual ;
+    rdfs:label "Notification Service"@en ;
+    ex:id-47116 ex:id-47117 .
+
+ex:id-47133 a archimate:Grouping,
+        owl:NamedIndividual ;
+    rdfs:label "Communication"@en ;
+    ex:id-47519 ex:id-47103 ;
+    ex:id-47523 ex:id-47102 ;
+    ex:id-47539 ex:id-47101 ;
+    ex:id-47549 ex:id-47117 .
+
+ex:id-47172 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "Home Alarm System"@en ;
+    ex:id-47186 ex:id-47117 .
+
+ex:id-47201 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Improve Data Consistency"@en .
+
+ex:id-47208 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Satisfaction"@en ;
+    ex:id-47288 ex:id-47263 ;
+    ex:id-47308 ex:id-47201 .
+
+ex:id-47248 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "Profit Margin of >5% in Next Fiscal Year"@en ;
+    ex:id-47340 ex:id-47250 .
+
+archimate:ActiveStructureElement a owl:Class ;
+    rdfs:label "Active Structure Element"@en ;
+    rdfs:comment "Structure element capable of performing behavior (an actor of some kind)."@en ;
+    rdfs:subClassOf archimate:StructureElement .
+
+archimate:ApplicationFunction a owl:Class ;
+    rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:BusinessService a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:ExternalBehaviorElement .
+
+archimate:Concept a owl:Class ;
+    rdfs:label "Concept"@en ;
+    rdfs:comment """Abstract root of the ArchiMate metamodel:
+generalises Element, Relationship and RelationshipConnector. Declared here
+for documentation/anchoring purposes only - see the design note above for
+why no formal subClassOf/subPropertyOf axiom spans the Element and
+Relationship branches in this ontology."""@en .
+
+archimate:Deliverable a owl:Class ;
+    rdfs:subClassOf archimate:ImplementationMigrationLayer,
+        archimate:PassiveStructureElement .
+
+archimate:DynamicRelationship a owl:ObjectProperty ;
+    rdfs:label "Dynamic Relationship"@en ;
+    rdfs:comment "Models temporal dependencies between concepts, as manifested in processes, functions, interactions and events."@en ;
+    rdfs:subPropertyOf archimate:Relationship .
+
+archimate:Principle a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:RelationshipConnector a owl:Class ;
+    rdfs:label "Relationship Connector"@en ;
+    rdfs:comment "Junction used to connect multiple relationships of the same type."@en ;
+    rdfs:subClassOf archimate:Concept .
+
+archimate:TechnologyFunction a owl:Class ;
+    rdfs:subClassOf archimate:InternalBehaviorElement,
+        archimate:TechnologyLayer .
+
+ex:id-46302 a archimate:Plateau,
+        owl:NamedIndividual ;
+    rdfs:label "Transition C: One Enterprise-Wide CRM System with Standard Back Office Systems"@en ;
+    ex:id-47400 ex:id-46339 .
+
+ex:id-46307 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Asset Management"@en ;
+    ex:id-46374 ex:id-46375 ;
+    ex:id-46385 ex:id-46386 ;
+    ex:id-46398 ex:id-46399 ;
+    ex:id-46417 ex:id-46418 .
+
+ex:id-46319 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Digital Customer Management"@en ;
+    ex:id-46368 ex:id-46369 ;
+    ex:id-46388 ex:id-46336 ;
+    ex:id-46402 ex:id-46312 ;
+    ex:id-46424 ex:id-46425 .
+
+ex:id-46324 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (6)"@en ;
+    ex:id-46323 ex:id-46325 .
+
+ex:id-46329 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (7)"@en ;
+    ex:id-46328 ex:id-46330 .
+
+ex:id-46336 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "Best-in-Class Online Customer Experience"@en ;
+    ex:id-47332 ex:id-46563 ;
+    ex:id-47336 ex:id-46569 .
+
+ex:id-46338 a archimate:AndJunction,
+        owl:NamedIndividual ;
+    rdfs:label "Junction (2)"@en ;
+    ex:id-46337 ex:id-46339 .
+
+ex:id-46355 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Sales And Distribution"@en ;
+    ex:id-46403 ex:id-46321 ;
+    ex:id-46404 ex:id-46405 ;
+    ex:id-46457 ex:id-46458 .
+
+ex:id-46357 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Marketing"@en ;
+    ex:id-46392 ex:id-46321 ;
+    ex:id-46400 ex:id-46401 ;
+    ex:id-46440 ex:id-46441 .
+
+ex:id-46360 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Money Management"@en ;
+    ex:id-46390 ex:id-46391 ;
+    ex:id-46406 ex:id-46407 ;
+    ex:id-46412 ex:id-46413 ;
+    ex:id-46450 ex:id-46451 .
+
+ex:id-46384 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Service Channel Management"@en ;
+    ex:id-46542 ex:id-46369 .
+
+ex:id-46569 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "90% of Customer Interaction Online"@en ;
+    ex:id-47329 ex:id-47249 .
+
+ex:id-46574 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Higher Customer Retention"@en ;
+    ex:id-47328 ex:id-47247 .
+
+ex:id-46608 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Handle Claim"@en ;
+    ex:id-46626 ex:id-46627 ;
+    ex:id-46631 ex:id-46632 ;
+    ex:id-46633 ex:id-46294 ;
+    ex:id-46640 ex:id-46641 ;
+    ex:id-46642 ex:id-46643 ;
+    ex:id-46658 ex:id-46659 ;
+    ex:id-46662 ex:id-46329 .
+
+ex:id-46611 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Intermediary"@en ;
+    ex:id-46727 ex:id-46594 ;
+    ex:id-46732 ex:id-46613 .
+
+ex:id-46619 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense Back Office"@en .
+
+ex:id-46625 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Produce Policy"@en ;
+    ex:id-46842 ex:id-46655 .
+
+ex:id-46627 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Investigate"@en ;
+    ex:id-46836 ex:id-46294 ;
+    ex:id-46840 ex:id-46293 .
+
+ex:id-46643 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Notify Additional Stakeholders"@en ;
+    ex:id-46839 ex:id-46659 .
+
+ex:id-46655 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Accept Policy"@en .
+
+ex:id-46665 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Investment Management"@en ;
+    ex:id-46761 ex:id-46690 ;
+    ex:id-46791 ex:id-46306 ;
+    ex:id-46793 ex:id-46637 .
+
+ex:id-46687 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Claims"@en ;
+    ex:id-46794 ex:id-46637 .
+
+ex:id-46688 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Buying Insurance"@en ;
+    ex:id-46799 ex:id-46692 .
+
+ex:id-46689 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Claims Submission"@en ;
+    ex:id-46777 ex:id-46694 .
+
+ex:id-46706 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Claim"@en .
+
+ex:id-47058 a archimate:TechnologyFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Data Acquisition"@en ;
+    ex:id-47106 ex:id-46921 ;
+    ex:id-47132 ex:id-47133 .
+
+ex:id-47087 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "ArchiSurance General-Purpose Server Cluster"@en ;
+    ex:id-47109 ex:id-47069 ;
+    ex:id-47112 ex:id-47072 ;
+    ex:id-47113 ex:id-46918 ;
+    ex:id-47122 ex:id-47070 ;
+    ex:id-47138 ex:id-46299 ;
+    ex:id-47141 ex:id-46915 .
+
+ex:id-47089 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense General-Purpose Server"@en ;
+    ex:id-47137 ex:id-47077 ;
+    ex:id-47140 ex:id-46913 .
+
+ex:id-47091 a archimate:Device,
+        owl:NamedIndividual ;
+    rdfs:label "ArchiSurance Back-Up Server Cluster"@en ;
+    ex:id-47119 ex:id-46298 ;
+    ex:id-47121 ex:id-47070 .
+
+ex:id-47174 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "Smart Thermostat"@en ;
+    ex:id-47181 ex:id-47117 .
+
+ex:id-47247 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Increase in Revenue"@en ;
+    ex:id-47296 ex:id-46565 ;
+    ex:id-47322 ex:id-47250 ;
+    ex:id-47330 ex:id-47248 .
+
+ex:id-47249 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Reduction of Personnel Costs"@en ;
+    ex:id-47323 ex:id-47250 .
+
+archimate:Access a owl:ObjectProperty ;
+    rdfs:label "Access"@en ;
+    rdfs:comment "Models the ability of behavior and active structure elements to observe or act upon passive structure elements."@en ;
+    rdfs:subPropertyOf archimate:DependencyRelationship .
+
+archimate:BusinessCollaboration a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalActiveStructureElement .
+
+archimate:BusinessEvent a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:Event .
+
+archimate:CommunicationNetwork a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:ExternalActiveStructureElement a owl:Class ;
+    rdfs:label "External Active Structure Element"@en ;
+    rdfs:comment "Active structure element as seen from outside the structure that contains it (e.g. a role, interface)."@en ;
+    rdfs:subClassOf archimate:ActiveStructureElement .
+
+archimate:ExternalBehaviorElement a owl:Class ;
+    rdfs:label "External Behavior Element"@en ;
+    rdfs:comment "Behavior element exposed externally (e.g. a service)."@en ;
+    rdfs:subClassOf archimate:BehaviorElement .
+
+archimate:Meaning a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:OrJunction a owl:Class ;
+    rdfs:label "Or Junction"@en ;
+    rdfs:comment "Junction where at least one of the incoming/outgoing relationships holds (logical OR)."@en ;
+    rdfs:subClassOf archimate:RelationshipConnector .
+
+archimate:StructureElement a owl:Class ;
+    rdfs:label "Structure Element"@en ;
+    rdfs:comment "Represents structural (static) aspects of the enterprise: entities capable of, or acted upon by, behavior."@en ;
+    rdfs:subClassOf archimate:Element .
+
+ex:id-46316 a archimate:Outcome,
+        owl:NamedIndividual ;
+    rdfs:label "Detailed Insights in Customer Behavior"@en ;
+    ex:id-47281 ex:id-46571 .
+
+ex:id-46325 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Policy and Claim Management"@en ;
+    ex:id-46378 ex:id-46379 ;
+    ex:id-46380 ex:id-46330 ;
+    ex:id-46408 ex:id-46409 ;
+    ex:id-46416 ex:id-46356 ;
+    ex:id-46426 ex:id-46427 ;
+    ex:id-46428 ex:id-46429 ;
+    ex:id-46445 ex:id-46333 .
+
+ex:id-46333 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Data-Driven Insurance"@en ;
+    ex:id-46365 ex:id-46366 ;
+    ex:id-46367 ex:id-46330 ;
+    ex:id-46389 ex:id-46316 ;
+    ex:id-46397 ex:id-46312 ;
+    ex:id-46436 ex:id-46437 ;
+    ex:id-46438 ex:id-46439 .
+
+ex:id-46356 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Product Management"@en ;
+    ex:id-46393 ex:id-46394 ;
+    ex:id-46423 ex:id-46366 ;
+    ex:id-46442 ex:id-46443 .
+
+ex:id-46361 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Management"@en ;
+    ex:id-46373 ex:id-46319 ;
+    ex:id-46383 ex:id-46384 ;
+    ex:id-46387 ex:id-46369 ;
+    ex:id-46410 ex:id-46411 ;
+    ex:id-46434 ex:id-46435 ;
+    ex:id-46448 ex:id-46449 .
+
+ex:id-46379 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Settlement"@en ;
+    ex:id-46535 ex:id-46330 .
+
+ex:id-46409 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Contract Lifecycle Management"@en ;
+    ex:id-46538 ex:id-46330 .
+
+ex:id-46411 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Relation Management"@en ;
+    ex:id-46581 ex:id-46369 .
+
+ex:id-46427 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Claim Administration"@en ;
+    ex:id-46566 ex:id-46330 .
+
+ex:id-46429 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Contract Administration"@en ;
+    ex:id-46540 ex:id-46330 .
+
+ex:id-46435 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Contact Management"@en ;
+    ex:id-46539 ex:id-46369 .
+
+ex:id-46449 a archimate:Capability,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Data Management"@en ;
+    ex:id-46537 ex:id-46369 .
+
+ex:id-46565 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Improve Cross-Selling Success"@en ;
+    ex:id-47324 ex:id-47247 .
+
+ex:id-46621 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Auto Back Office"@en .
+
+ex:id-46635 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Underwrite Risk"@en ;
+    ex:id-46838 ex:id-46625 .
+
+ex:id-46639 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Homeowner's & Travel Back Office"@en .
+
+ex:id-46641 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Capture Information"@en ;
+    ex:id-46841 ex:id-46643 .
+
+ex:id-46659 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Validate"@en ;
+    ex:id-46837 ex:id-46627 .
+
+ex:id-46692 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Sales"@en ;
+    ex:id-46769 ex:id-46355 ;
+    ex:id-46781 ex:id-46637 ;
+    ex:id-46789 ex:id-46688 .
+
+ex:id-46866 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "AUTO-U"@en ;
+    ex:id-47024 ex:id-46871 .
+
+ex:id-46871 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "P-ADMIN"@en ;
+    ex:id-47023 ex:id-46873 ;
+    ex:id-47031 ex:id-46866 .
+
+ex:id-46873 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "VERSA-CLAIM"@en .
+
+ex:id-47052 a archimate:CommunicationNetwork,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away LAN"@en ;
+    ex:id-47127 ex:id-47087 ;
+    ex:id-47129 ex:id-47094 ;
+    ex:id-47134 ex:id-47098 .
+
+ex:id-47263 a archimate:Stakeholder,
+        owl:NamedIndividual ;
+    rdfs:label "Customer"@en ;
+    ex:id-47277 ex:id-46552 ;
+    ex:id-47282 ex:id-46549 ;
+    ex:id-47284 ex:id-47241 ;
+    ex:id-47287 ex:id-47235 ;
+    ex:id-47310 ex:id-46561 ;
+    ex:id-47311 ex:id-46559 ;
+    ex:id-47316 ex:id-47257 ;
+    ex:id-47317 ex:id-46576 ;
+    ex:id-47319 ex:id-46563 .
+
+archimate:ApplicationProcess a owl:Class ;
+    rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:CompositeElement a owl:Class ;
+    rdfs:label "Composite Element"@en ;
+    rdfs:comment "Element that aggregates or is composed of one or more other concepts."@en ;
+    rdfs:subClassOf archimate:Element .
+
+archimate:DataObject a owl:Class ;
+    rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:PassiveStructureElement .
+
+archimate:DependencyRelationship a owl:ObjectProperty ;
+    rdfs:label "Dependency Relationship"@en ;
+    rdfs:comment "Models that a concept's structure or behavior provides something that another concept needs."@en ;
+    rdfs:subPropertyOf archimate:Relationship .
+
+archimate:Event a owl:Class ;
+    rdfs:label "Event"@en ;
+    rdfs:comment "Something that happens and triggers behavior."@en ;
+    rdfs:subClassOf archimate:BehaviorElement .
+
+archimate:Location a owl:Class ;
+    rdfs:label "Location"@en ;
+    rdfs:comment "A conceptual or physical place, or position, where concepts are located or performed."@en ;
+    rdfs:subClassOf archimate:CompositeElement .
+
+archimate:PhysicalLayer a owl:Class ;
+    rdfs:label "Physical Layer"@en ;
+    rdfs:comment "The physical extension of the Technology Layer, describing tangible equipment, facilities, and materials."@en ;
+    rdfs:subClassOf archimate:TechnologyLayer .
+
+archimate:Relationship a owl:ObjectProperty ;
+    rdfs:label "Relationship"@en ;
+    rdfs:comment "Abstract ArchiMate relationship. Per-model relationship identifiers are rdfs:subPropertyOf one of this property's descendants."@en .
+
+archimate:StrategyLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Strategy Layer"@en ;
+    rdfs:comment "The layer describing the strategic direction and capabilities of an enterprise."@en .
+
+archimate:StructuralRelationship a owl:ObjectProperty ;
+    rdfs:label "Structural Relationship"@en ;
+    rdfs:comment "Models the static coherence of concepts of the same or different types."@en ;
+    rdfs:subPropertyOf archimate:Relationship .
+
+archimate:TechnologyService a owl:Class ;
+    rdfs:subClassOf archimate:ExternalBehaviorElement,
+        archimate:TechnologyLayer .
+
+ex:id-46294 a archimate:BusinessProcess,
+        owl:NamedIndividual ;
+    rdfs:label "Pay"@en .
+
+ex:id-46563 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Improve Customer Satisfaction"@en ;
+    ex:id-47335 ex:id-46574 .
+
+ex:id-46613 a archimate:BusinessActor,
+        owl:NamedIndividual ;
+    rdfs:label "Customer"@en ;
+    ex:id-46729 ex:id-46611 ;
+    ex:id-46734 ex:id-46693 ;
+    ex:id-46750 ex:id-46689 ;
+    ex:id-46783 ex:id-46688 .
+
+ex:id-46617 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Actuarial"@en ;
+    ex:id-46735 ex:id-46637 ;
+    ex:id-46766 ex:id-46356 ;
+    ex:id-46785 ex:id-46324 ;
+    ex:id-46786 ex:id-46630 ;
+    ex:id-46787 ex:id-46691 .
+
+ex:id-46661 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Document Processing"@en ;
+    ex:id-46737 ex:id-46639 ;
+    ex:id-46740 ex:id-46621 ;
+    ex:id-46744 ex:id-46630 ;
+    ex:id-46762 ex:id-46595 ;
+    ex:id-46765 ex:id-46637 .
+
+ex:id-46913 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense Back Office System"@en ;
+    ex:id-46931 ex:id-46860 ;
+    ex:id-46945 ex:id-46864 ;
+    ex:id-46948 ex:id-46862 ;
+    ex:id-46978 ex:id-46630 ;
+    ex:id-46987 ex:id-46637 ;
+    ex:id-47011 ex:id-46667 .
+
+ex:id-46914 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Auto Insurance Application"@en ;
+    ex:id-46927 ex:id-46862 ;
+    ex:id-46941 ex:id-46667 ;
+    ex:id-46952 ex:id-46860 ;
+    ex:id-46988 ex:id-46630 ;
+    ex:id-46993 ex:id-46617 .
+
+ex:id-46918 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away Policy Administration"@en ;
+    ex:id-46928 ex:id-46915 ;
+    ex:id-46939 ex:id-46908 ;
+    ex:id-46953 ex:id-46862 ;
+    ex:id-46961 ex:id-46860 ;
+    ex:id-46973 ex:id-46667 ;
+    ex:id-46984 ex:id-46630 ;
+    ex:id-46989 ex:id-46894 ;
+    ex:id-46995 ex:id-46909 ;
+    ex:id-47007 ex:id-46905 ;
+    ex:id-47010 ex:id-46895 .
+
+ex:id-47045 a archimate:Node,
+        owl:NamedIndividual ;
+    rdfs:label "Data Acquisition Gateway"@en ;
+    ex:id-47050 ex:id-46299 ;
+    ex:id-47051 ex:id-47052 ;
+    ex:id-47053 ex:id-47054 ;
+    ex:id-47055 ex:id-47056 ;
+    ex:id-47057 ex:id-47058 .
+
+ex:id-47257 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Reduction of Costs"@en ;
+    ex:id-47327 ex:id-47248 ;
+    ex:id-47337 ex:id-47249 ;
+    ex:id-47339 ex:id-47252 .
+
+archimate:BusinessInterface a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:ExternalActiveStructureElement .
+
+archimate:Element a owl:Class ;
+    rdfs:label "Element"@en ;
+    rdfs:comment "Abstract ArchiMate element. All concrete, layer-specific leaf types (e.g. archimate:BusinessActor) supplied at population time are rdfs:subClassOf one of this class's descendants."@en ;
+    rdfs:subClassOf archimate:Concept .
+
+archimate:ImplementationMigrationLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Implementation and Migration Layer"@en ;
+    rdfs:comment "The layer describing programs, projects, and transition states used to implement and migrate the architecture."@en .
+
+archimate:Plateau a owl:Class ;
+    rdfs:subClassOf archimate:CompositeElement,
+        archimate:ImplementationMigrationLayer .
+
+archimate:Requirement a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:ValueStream a owl:Class ;
+    rdfs:subClassOf archimate:BehaviorElement,
+        archimate:StrategyLayer .
+
+ex:id-46339 a archimate:Plateau,
+        owl:NamedIndividual ;
+    rdfs:label "Target: CRM, Back Office and Data Warehouse Operational"@en ;
+    ex:id-47402 ex:id-46333 ;
+    ex:id-47404 ex:id-46917 ;
+    ex:id-47405 ex:id-46429 ;
+    ex:id-47410 ex:id-46916 ;
+    ex:id-47413 ex:id-46435 ;
+    ex:id-47417 ex:id-46862 ;
+    ex:id-47418 ex:id-46439 ;
+    ex:id-47421 ex:id-46427 ;
+    ex:id-47426 ex:id-46919 ;
+    ex:id-47430 ex:id-46299 ;
+    ex:id-47431 ex:id-46425 ;
+    ex:id-47433 ex:id-46304 ;
+    ex:id-47437 ex:id-46919 ;
+    ex:id-47440 ex:id-46860 ;
+    ex:id-47449 ex:id-46361 ;
+    ex:id-47454 ex:id-46355 ;
+    ex:id-47462 ex:id-46437 ;
+    ex:id-47463 ex:id-46862 ;
+    ex:id-47464 ex:id-46304 ;
+    ex:id-47465 ex:id-46860 ;
+    ex:id-47466 ex:id-46449 ;
+    ex:id-47467 ex:id-46916 ;
+    ex:id-47468 ex:id-46358 ;
+    ex:id-47469 ex:id-46357 ;
+    ex:id-47470 ex:id-46917 ;
+    ex:id-47471 ex:id-46325 ;
+    ex:id-47472 ex:id-46379 ;
+    ex:id-47473 ex:id-46359 ;
+    ex:id-47474 ex:id-46339 ;
+    ex:id-47475 ex:id-46299 ;
+    ex:id-47476 ex:id-46356 ;
+    ex:id-47477 ex:id-46409 ;
+    ex:id-47478 ex:id-46411 ;
+    ex:id-47479 ex:id-46384 ;
+    ex:id-47480 ex:id-46360 ;
+    ex:id-47481 ex:id-46307 ;
+    ex:id-47484 ex:id-46319 ;
+    ex:id-47485 ex:id-46333 .
+
+ex:id-46366 a archimate:ValueStream,
+        owl:NamedIndividual ;
+    rdfs:label "Develop Products"@en ;
+    ex:id-46554 ex:id-46322 ;
+    ex:id-46555 ex:id-46316 ;
+    ex:id-46558 ex:id-46559 ;
+    ex:id-46570 ex:id-46571 .
+
+ex:id-46915 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Home & Away Financial Application"@en ;
+    ex:id-46940 ex:id-46918 ;
+    ex:id-46990 ex:id-46637 ;
+    ex:id-46998 ex:id-46906 .
+
+ex:id-47252 a archimate:Goal,
+        owl:NamedIndividual ;
+    rdfs:label "Reduction of Maintenance Costs"@en .
+
+archimate:BehaviorElement a owl:Class ;
+    rdfs:label "Behavior Element"@en ;
+    rdfs:comment "Represents units of activity performed by one or more active structure elements."@en ;
+    rdfs:subClassOf archimate:Element .
+
+archimate:Equipment a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:PhysicalLayer .
+
+archimate:Layer a owl:Class ;
+    rdfs:label "Layer"@en ;
+    rdfs:comment "Abstract root for the ArchiMate layers. Declared for documentation/anchoring purposes, parallel to archimate:Concept for the aspect dimension."@en .
+
+archimate:Outcome a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:PassiveStructureElement a owl:Class ;
+    rdfs:label "Passive Structure Element"@en ;
+    rdfs:comment "Structure element upon which behavior is performed (e.g. a business object, data object, artifact)."@en ;
+    rdfs:subClassOf archimate:StructureElement .
+
+archimate:WorkPackage a owl:Class ;
+    rdfs:subClassOf archimate:ImplementationMigrationLayer,
+        archimate:InternalBehaviorElement .
+
+ex:id-46630 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Underwriting"@en ;
+    ex:id-46745 ex:id-46661 ;
+    ex:id-46746 ex:id-46687 ;
+    ex:id-46767 ex:id-46324 ;
+    ex:id-46788 ex:id-46637 .
+
+ex:id-46694 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Customer Relations"@en ;
+    ex:id-46748 ex:id-46667 ;
+    ex:id-46776 ex:id-46361 ;
+    ex:id-46798 ex:id-46692 ;
+    ex:id-46800 ex:id-46687 .
+
+ex:id-46700 a archimate:BusinessObject,
+        owl:NamedIndividual ;
+    rdfs:label "Insurance Policy"@en ;
+    ex:id-46782 ex:id-46706 .
+
+ex:id-46864 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Legal Expense CRM System"@en ;
+    ex:id-46935 ex:id-46916 ;
+    ex:id-46958 ex:id-46917 ;
+    ex:id-46999 ex:id-46637 ;
+    ex:id-47006 ex:id-46694 .
+
+ex:id-46916 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Web Portal"@en ;
+    ex:id-46970 ex:id-46694 ;
+    ex:id-47005 ex:id-46689 .
+
+ex:id-46917 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Call Center Application"@en ;
+    ex:id-46933 ex:id-46864 ;
+    ex:id-46965 ex:id-46916 ;
+    ex:id-46969 ex:id-46862 ;
+    ex:id-46974 ex:id-46694 .
+
+ex:id-47250 a archimate:Driver,
+        owl:NamedIndividual ;
+    rdfs:label "Profitability"@en ;
+    ex:id-47314 ex:id-47252 .
+
+ex:id-46299 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Data Warehousing Solution"@en ;
+    ex:id-46930 ex:id-46617 ;
+    ex:id-46972 ex:id-46304 ;
+    ex:id-46977 ex:id-46923 .
+
+ex:id-46322 a archimate:ValueStream,
+        owl:NamedIndividual ;
+    rdfs:label "Market and Sell Products"@en ;
+    ex:id-46546 ex:id-46547 ;
+    ex:id-46550 ex:id-46330 ;
+    ex:id-46551 ex:id-46552 ;
+    ex:id-46564 ex:id-46565 ;
+    ex:id-46577 ex:id-46578 .
+
+ex:id-46667 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Claims Handling"@en ;
+    ex:id-46757 ex:id-46324 ;
+    ex:id-46759 ex:id-46637 .
+
+ex:id-47117 a archimate:Equipment,
+        owl:NamedIndividual ;
+    rdfs:label "IoT Device"@en ;
+    ex:id-47187 ex:id-47045 ;
+    ex:id-47188 ex:id-47084 .
+
+archimate:Device a owl:Class ;
+    rdfs:subClassOf archimate:InternalActiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:Specialization a owl:ObjectProperty ;
+    rdfs:label "Specialization"@en ;
+    rdfs:comment "Models that a concept is a specific form of another, more general, concept."@en ;
+    rdfs:subPropertyOf archimate:OtherRelationship .
+
+ex:id-46304 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "ArchiSurance Back Office Suite"@en ;
+    ex:id-46857 ex:id-46299 ;
+    ex:id-46859 ex:id-46860 ;
+    ex:id-46861 ex:id-46862 ;
+    ex:id-46863 ex:id-46864 ;
+    ex:id-46865 ex:id-46866 ;
+    ex:id-46867 ex:id-46868 ;
+    ex:id-46869 ex:id-46688 ;
+    ex:id-46870 ex:id-46871 ;
+    ex:id-46872 ex:id-46873 ;
+    ex:id-46874 ex:id-46637 ;
+    ex:id-46875 ex:id-46617 ;
+    ex:id-46876 ex:id-46877 ;
+    ex:id-46878 ex:id-46879 ;
+    ex:id-46880 ex:id-46881 ;
+    ex:id-46882 ex:id-46667 .
+
+ex:id-46369 a archimate:ValueStream,
+        owl:NamedIndividual ;
+    rdfs:label "Serve Customers"@en ;
+    ex:id-46556 ex:id-46557 ;
+    ex:id-46560 ex:id-46561 ;
+    ex:id-46562 ex:id-46563 ;
+    ex:id-46567 ex:id-46336 ;
+    ex:id-46579 ex:id-46569 ;
+    ex:id-46580 ex:id-46574 .
+
+ex:id-46860 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "Document Management System"@en ;
+    ex:id-46929 ex:id-46915 ;
+    ex:id-46938 ex:id-46918 ;
+    ex:id-46950 ex:id-46914 ;
+    ex:id-46962 ex:id-46304 ;
+    ex:id-46964 ex:id-46913 ;
+    ex:id-46996 ex:id-46910 ;
+    ex:id-47003 ex:id-46907 ;
+    ex:id-47008 ex:id-46661 .
+
+archimate:ApplicationLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Application Layer"@en ;
+    rdfs:comment "The layer describing application services supporting the business, realised by application components."@en .
+
+archimate:MotivationElement a owl:Class ;
+    rdfs:label "Motivation Element"@en ;
+    rdfs:comment "Represents the reasons underlying the architecture's design (e.g. stakeholder, driver, goal, requirement)."@en ;
+    rdfs:subClassOf archimate:Element .
+
+ex:id-46330 a archimate:ValueStream,
+        owl:NamedIndividual ;
+    rdfs:label "Manage Policies and Claims"@en ;
+    ex:id-46548 ex:id-46549 ;
+    ex:id-46553 ex:id-46369 ;
+    ex:id-46568 ex:id-46569 ;
+    ex:id-46572 ex:id-46316 ;
+    ex:id-46573 ex:id-46574 ;
+    ex:id-46575 ex:id-46576 .
+
+archimate:ApplicationService a owl:Class ;
+    rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:ExternalBehaviorElement .
+
+archimate:InternalBehaviorElement a owl:Class ;
+    rdfs:label "Internal Behavior Element"@en ;
+    rdfs:comment "Behavior element internal to the structure that performs it (e.g. a process, function, interaction)."@en ;
+    rdfs:subClassOf archimate:BehaviorElement .
+
+archimate:MotivationLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Motivation Layer"@en ;
+    rdfs:comment "The layer describing the reasons that guide the design of an enterprise architecture."@en .
+
+ex:id-46862 a archimate:ApplicationComponent,
+        owl:NamedIndividual ;
+    rdfs:label "General CRM System"@en ;
+    ex:id-46932 ex:id-46916 ;
+    ex:id-46949 ex:id-46904 ;
+    ex:id-46968 ex:id-46917 ;
+    ex:id-46979 ex:id-46903 .
+
+archimate:Artifact a owl:Class ;
+    rdfs:subClassOf archimate:PassiveStructureElement,
+        archimate:TechnologyLayer .
+
+archimate:BusinessObject a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:PassiveStructureElement .
+
+archimate:BusinessProcess a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:Goal a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+ex:id-46637 a archimate:BusinessFunction,
+        owl:NamedIndividual ;
+    rdfs:label "Finance"@en ;
+    ex:id-46743 ex:id-46665 ;
+    ex:id-46749 ex:id-46661 ;
+    ex:id-46758 ex:id-46667 ;
+    ex:id-46763 ex:id-46306 ;
+    ex:id-46773 ex:id-46687 ;
+    ex:id-46779 ex:id-46360 .
+
+archimate:BusinessActor a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalActiveStructureElement .
+
+archimate:BusinessLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Business Layer"@en ;
+    rdfs:comment "The layer describing business services offered to customers, realised by business processes performed by business actors and roles."@en .
+
+archimate:Stakeholder a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:BusinessFunction a owl:Class ;
+    rdfs:subClassOf archimate:BusinessLayer,
+        archimate:InternalBehaviorElement .
+
+archimate:InternalActiveStructureElement a owl:Class ;
+    rdfs:label "Internal Active Structure Element"@en ;
+    rdfs:comment "Active structure element internal to the structure it belongs to (e.g. an actor, component, node)."@en ;
+    rdfs:subClassOf archimate:ActiveStructureElement .
+
+archimate:TechnologyLayer a archimate:Layer,
+        owl:Class ;
+    rdfs:label "Technology Layer"@en ;
+    rdfs:comment "The layer describing technology services (infrastructure) supporting the application layer, realised by nodes, devices and system software."@en .
+
+archimate:AndJunction a owl:Class ;
+    rdfs:label "(And) Junction"@en ;
+    rdfs:comment "Junction where all incoming/outgoing relationships hold simultaneously (logical AND)."@en ;
+    rdfs:subClassOf archimate:RelationshipConnector .
+
+archimate:ApplicationComponent a owl:Class ;
+    rdfs:subClassOf archimate:ApplicationLayer,
+        archimate:InternalActiveStructureElement .
+
+archimate:Assessment a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:Value a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:Triggering a owl:ObjectProperty ;
+    rdfs:label "Triggering"@en ;
+    rdfs:comment "Models a temporal or causal relationship between concepts."@en ;
+    rdfs:subPropertyOf archimate:DynamicRelationship .
+
+archimate:Driver a owl:Class ;
+    rdfs:subClassOf archimate:MotivationElement,
+        archimate:MotivationLayer .
+
+archimate:Influence a owl:ObjectProperty ;
+    rdfs:label "Influence"@en ;
+    rdfs:comment "Models that a concept affects the implementation or achievement of some motivation element."@en ;
+    rdfs:subPropertyOf archimate:DependencyRelationship .
+
+archimate:Assignment a owl:ObjectProperty ;
+    rdfs:label "Assignment"@en ;
+    rdfs:comment "Expresses the allocation of responsibility, performance of behavior, storage, or execution."@en ;
+    rdfs:subPropertyOf archimate:StructuralRelationship .
+
+archimate:Grouping a owl:Class ;
+    rdfs:label "Grouping"@en ;
+    rdfs:comment "Aggregates concepts that share some common trait, without a formal architectural relationship."@en ;
+    rdfs:subClassOf archimate:CompositeElement .
+
+archimate:Capability a owl:Class ;
+    rdfs:subClassOf archimate:BehaviorElement,
+        archimate:StrategyLayer .
+
+archimate:Association a owl:ObjectProperty ;
+    rdfs:label "Association"@en ;
+    rdfs:comment "Models an unspecified relationship, or one not represented by another ArchiMate relationship type."@en ;
+    rdfs:subPropertyOf archimate:DependencyRelationship .
+
+archimate:Composition a owl:ObjectProperty ;
+    rdfs:label "Composition"@en ;
+    rdfs:comment "Indicates that a concept consists of one or more other concepts."@en ;
+    rdfs:subPropertyOf archimate:StructuralRelationship .
+
+archimate:Serving a owl:ObjectProperty ;
+    rdfs:label "Serving"@en ;
+    rdfs:comment "Models that a concept provides its functionality to another concept."@en ;
+    rdfs:subPropertyOf archimate:DependencyRelationship .
+
+archimate:Flow a owl:ObjectProperty ;
+    rdfs:label "Flow"@en ;
+    rdfs:comment "Models the transfer of information, goods, money, or value between concepts."@en ;
+    rdfs:subPropertyOf archimate:DynamicRelationship .
+
+archimate:Aggregation a owl:ObjectProperty ;
+    rdfs:label "Aggregation"@en ;
+    rdfs:comment "Indicates that a concept groups a number of other concepts."@en ;
+    rdfs:subPropertyOf archimate:StructuralRelationship .
+
+archimate:Realization a owl:ObjectProperty ;
+    rdfs:label "Realization"@en ;
+    rdfs:comment "Indicates that an entity plays a critical role in the creation, achievement, sustenance, or operation of a more abstract entity."@en ;
+    rdfs:subPropertyOf archimate:StructuralRelationship .
+
